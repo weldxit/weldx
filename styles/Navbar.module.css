@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+.navbutton{
+    display: block;
+    box-sizing: border-box;
+    margin: 2rem;
+}
