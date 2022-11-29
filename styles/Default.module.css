@@ -47,9 +47,11 @@ text-align: center;
     margin: 0.3ch;
     font-size: 2rem;
     color: yellow;
+    writing-mode: vertical-rl;
 }
 
 .innovation{
+    padding-top: 3rem;
     margin: 0.3ch;
     font-size: 2rem;
     color:lightseagreen;
@@ -131,4 +133,16 @@ text-align: center;
 .section3{
     height: 60vh;
     background-color: black;
+}
+
+.product{   
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.pname{
+    margin: 0;
+    padding: 0;
 }

@@ -2,8 +2,8 @@
   box-sizing: border-box;
   position: relative;
   height: 100%;
-  padding: 0 ;
-  background-color: rgb(13, 31, 44);
+  padding: 0 5rem;
+  background-color: rgb(255, 255, 255);
   color: aliceblue;
 }
 

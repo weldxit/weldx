@@ -4,10 +4,11 @@
     justify-content: center;
     align-items: center;
     height: 4rem;
+    background-color: teal;
 }
 
 .navbutton{
-    display: block;
+
     box-sizing: border-box;
     margin: 2rem;
 }

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import style from "../styles/Default.module.css";
+import Navbar from "./components/Navbar";
 export default function Default() {
   return (
     <div className={style.section}>
@@ -90,15 +91,20 @@ export default function Default() {
       </section>
 
       <section className={style.section3}>
-        <div>
+      
           <div className={style.product}>
-            <Image
-            src={'/'}
-            fill={true}
-            alt="im am image"
-            />
+
+           <h2 className={style.pname}>Product Name</h2>
+           <ul>
+            <li>Product feature 1</li>
+            <li>Product feature 1</li>
+            <li>Product feature 1</li>
+            <li>Product feature 1</li>
+            <li>Product feature 1</li>
+            
+           </ul>
           </div>
-        </div>
+  
       </section>
     </div>
   );

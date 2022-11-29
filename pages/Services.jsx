@@ -9,7 +9,7 @@ export default function Services() {
         <Navbar/>
         <section >
             <div>
-<Default/>
+                
             </div>
         </section>
     </div>

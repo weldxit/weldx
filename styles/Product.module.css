@@ -1,6 +1,52 @@
-.section{
+.root {
+    padding: 0 5rem;
+    height: 100vh;
+    background-color: mediumslateblue;
+    color: aliceblue;
+}
+
+.section1 {
+    height: fit-content;
+    background-color: aliceblue;
+}
+
+.erp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.erp_heading {
+    color: black;
+}
+
+.erp_products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.erp_card {
+    margin: 0;
     padding: 0;
- height: 100vh;
- background-color: mediumslateblue;
- color: aliceblue;
+    height: 45vh;
+    width: 50vh;
+    color: black;
+    box-shadow: 1px 1px 1rem 1px lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.erp_name{
+    text-shadow: 1px 1px 1px rgb(113, 113, 113);
+}
+
+.feature_list{
+    margin: 0;
+    padding: 0;
+    list-style-type:circle;
 }
