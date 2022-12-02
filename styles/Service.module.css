@@ -1,15 +1,58 @@
 .section{
-    padding: 0 ;
-    height: 100vh;
+    padding: 0;
+    height: fit-content;
     background-color: darkblue;
     color: aliceblue;
 }
 
 .services{
+   
     height: fit-content;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.service_providing{
+.each_service{
+    margin: 2rem;
+    width: 70vmax;
+    position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow:0.1rem 0.1rem 0.5rem lightskyblue;
+}
 
+.service_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+    width: 50vh;
+}
+
+.each_service_name{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: black;
+}
+
+.each_service_para{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.service_img{
+    position: relative;
+    height: 50vh;
+    width: 50vh;
 }
