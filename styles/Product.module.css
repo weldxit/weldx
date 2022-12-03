@@ -1,9 +1,9 @@
 .root {
-    padding: 0 ;
+    padding: 0;
     height: 100vh;
     background-color: rgb(182, 215, 236);
     color: aliceblue;
-    
+
 
 }
 
@@ -11,8 +11,8 @@
 .section1 {
     height: fit-content;
     background-color: rgba(255, 255, 255, 0.535);
-   padding-top: 5rem;
- 
+    padding-top: 5rem;
+
 }
 
 .erp {
@@ -44,25 +44,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  background-color: aliceblue;
+    background-color: aliceblue;
 }
 
-.erp_name{
+.erp_name {
     text-shadow: 1px 1px 1px rgb(113, 113, 113);
     color: rgb(126, 189, 228);
     font-size: 2rem;
 }
 
-.feature_list{
+.feature_list {
     margin: 0;
     padding: 0;
-    list-style-type:circle;
+    list-style-type: circle;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-.li{
+
+.li {
     margin: 8px;
     text-align: center;
     font-size: 1.2rem;
@@ -71,56 +72,62 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.featured_product{
+.featured_product {
     display: flex;
-   
+
     justify-content: center;
     align-items: center;
-    flex:1;
-    background-image: linear-gradient(25deg,#119CFDFF,purple);
+    flex: 1;
+    background-image: linear-gradient(25deg, #119CFDFF, purple);
     margin-top: 4rem;
     height: 70vh;
-    
+
 
 
 }
 
-.customeErp{
+.customeErp {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    
-    
+
+
 }
-.making_erp{
+
+.making_erp {
     display: flex;
     flex-direction: column;
-    
+
     width: 80ch;
 
 }
-.h1{
-   font-size: 2rem;
+
+.h1 {
+    font-size: 2rem;
 }
-.h2{
+
+.h2 {
     text-align: center;
     padding-bottom: 3rem;
 }
 
-.chain{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-column-gap: 3rem;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  
+.chain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
 }
 
-.req , .team, .sol,.you{
- 
+.req,
+.team,
+.sol,
+.you {
+
 
     border: none;
     height: 18vh;
@@ -129,69 +136,411 @@ column-gap: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
     font-size: 1.5em;
 
 }
 
-.req{
+.req {
     background-color: rgba(47, 255, 71, 0.396);
     color: rgba(255, 255, 255, 0.654);
 }
-.team{
+
+.team {
     background-color: rgba(47, 255, 71, 0.609);
     color: rgb(200, 200, 200);
-    
+
 }
-.sol{background-color: rgba(47, 255, 71, 0.743);
+
+.sol {
+    background-color: rgba(47, 255, 71, 0.743);
     color: rgb(255, 255, 255);
 }
-.you{
+
+.you {
     background-color: rgba(0, 255, 0, 0.83);
     color: rgb(255, 255, 255);
 }
-    .text{
+
+.text {
     display: inline;
- font-weight: 600;
- text-align: center;
+    font-weight: 600;
+    text-align: center;
 }
 
 
-.section3{
+.section3 {
     height: fit-content;
     width: 100%;
- 
+
 }
 
-.featuring_products{
+.featuring_products {
     padding: 0 18rem;
-position: relative;
-height: 80vh;
-width: auto;
-background-image: linear-gradient(25deg,purple,#119CFDFF);
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
+    position: relative;
+    height: 80vh;
+    width: auto;
+    background-image: linear-gradient(25deg, purple, #119CFDFF);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 
 
 }
 
-.details_iot{
+.details_iot {
     width: 30rem;
 }
-.s4{
+
+.s4 {
     margin: 0;
     padding: 0;
     font-size: 4rem;
     color: aliceblue;
 
 }
-.image_iot{
+
+.image_iot {
 
     position: relative;
     width: 70ch;
     height: 60ch;
     object-fit: cover;
-    box-shadow: 0.3rem , 0.3rem, 1rem purple;
+    box-shadow: 0.3rem, 0.3rem, 1rem purple;
+}
+
+@media (min-width: 300px) and (max-width: 430px) {
+
+    .section1 {
+        padding-top: 0;
+    }
+
+    
+
+    .erp_heading{
+        text-align: center;
+    }
+
+    .erp_products {
+        display: block;
+    }
+    .making_erp{
+        width: auto;
+    }
+    .erp_card {
+        overflow: hidden;
+        margin: 1.5rem 0;
+        height: 40vh;
+        width: 40vh;
+        border-radius: 10px;
+    }
+
+    .erp_name {
+        font-size: 1.5rem;
+    }
+
+    .li {
+        font-size: 1rem;
+    }
+
+    .featured_product {
+        display: block;
+        margin-top: -10px;
+        height: auto;
+    }
+
+    .h2 {
+        font-size: 1.2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .chain {
+        display: grid;
+        grid-template-columns: none;
+        column-gap: 0;
+        row-gap: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .req,
+    .team,
+    .sol,
+    .you {
+        font-size: 1.1rem;
+    }
+
+    .featuring_products {
+        padding: 0;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .details_iot {
+        width: 20rem;
+        padding: 20px;
+    }
+
+    .s4 {
+        font-size: 2rem;
+        padding: 5px;
+    }
+
+    .image_iot {
+        width: 300px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 290px) {
+
+    .section1 {
+        padding-top: 0;
+    }
+
+
+    .erp_heading{
+        text-align: center;
+    }
+
+    .erp_products {
+        display: block;
+    }
+    .making_erp{
+        width: auto;
+    }
+    .erp_card {
+        overflow: hidden;
+        margin: 1rem 0;
+        height: 35vh;
+        width: 35vh;
+        border-radius: 10px;
+    }
+
+    .erp_name {
+        font-size: 1.5rem;
+    }
+
+    .li {
+        font-size: 1rem;
+    }
+
+    .featured_product {
+        display: block;
+        margin-top: -10px;
+        height: auto;
+        width: auto;
+    }
+
+    .h1{
+        font-size: 1.5rem;
+    }
+
+    .h2 {
+        font-size: .8rem;
+        padding-bottom: 1rem;
+    }
+
+    .chain {
+        display: grid;
+        grid-template-columns: none;
+        column-gap: 0;
+        row-gap: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .req,
+    .team,
+    .sol,
+    .you {
+        font-size: 1.1rem;
+    }
+
+    .featuring_products {
+        padding: 0;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .details_iot {
+        width: 18rem;
+        padding: 20px;
+    }
+
+    .s4 {
+        font-size: 2rem;
+        padding: 5px;
+    }
+
+    .image_iot {
+        width: 250px;
+        height: 170px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 970px) and (max-width: 1380px) {
+    .erp_card {
+        overflow: hidden;
+    }
+
+    .req,
+    .team,
+    .sol,
+    .you {
+        height: 25vh;
+        width: 25vh;
+        font-size: 1.3rem;
+    }
+
+    .featured_product{
+        margin-top: 0;
+    }
+
+    .featuring_products {
+        padding: 20px;
+    }
+    .s4{
+        font-size: 3rem;
+    }
+
+    .image_iot {
+        width: 470px;
+        height: 350px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 920px) {
+
+    .erp_products {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .erp_card {
+        overflow: hidden;
+        height: 30vh;
+        width: 30vh;
+    }
+    
+
+    .featured_product {
+        height: 50vh;
+        margin-top: 0;
+    }
+
+    .chain{
+        column-gap: 2.5rem;
+    }
+
+    .req,
+    .team,
+    .sol,
+    .you {
+        height: 14vh;
+        width: 14vh;
+        font-size: 1.5rem;
+    }
+
+    .featuring_products {
+        padding: 0;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .details_iot {
+        width: 40rem;
+        padding: 20px;
+    }
+
+    .s4 {
+        font-size: 3rem;
+        padding: 5px;
+    }
+
+    .image_iot {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (min-width: 520px) and (max-width: 690px) {
+    .section1 {
+        padding-top: 0;
+    }
+
+    
+
+    .erp_heading{
+        text-align: center;
+    }
+
+    .erp_products {
+        display: block;
+    }
+    .making_erp{
+        width: auto;
+    }
+    .erp_card {
+        overflow: hidden;
+        margin: 1.5rem 0;
+        border-radius: 10px;
+    }
+
+    .erp_name {
+        font-size: 1.5rem;
+    }
+
+    .li {
+        font-size: 1rem;
+    }
+
+    .featured_product {
+        display: block;
+        margin-top: -10px;
+        height: auto;
+    }
+
+    .h2 {
+        font-size: 1.2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .chain {
+        display: grid;
+        grid-template-columns: none;
+        column-gap: 0;
+        row-gap: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .req,
+    .team,
+    .sol,
+    .you {
+        font-size: 1.1rem;
+    }
+
+    .featuring_products {
+        padding: 0;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .details_iot {
+        padding: 20px;
+    }
+
+    .s4 {
+        font-size: 3rem;
+        padding: 5px;
+    }
+
+    .image_iot {
+        width: 450px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
 }

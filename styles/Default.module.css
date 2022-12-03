@@ -1,69 +1,69 @@
-.section{
+.section {
     height: auto;
-    
     color: aliceblue;
-   }
+}
 
-.rootcontainer{
+.rootcontainer {
     margin-top: 0rem;
     background-color: rgb(40, 9, 70);
-    height:auto;
+    height: auto;
 
 
 
 }
 
 
-.container{
-    padding-top: 5rem ;
+.container {
+    padding-top: 5rem;
     padding-bottom: 5rem;
-position: relative;
-display:grid;
-grid-template-columns: 1fr 1fr;
-justify-content: center;
-align-content: center;
-align-items: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 
 
-.welcometext{
-position: relative;
-display: inline-block;
-box-sizing: border-box;
-text-align: center;
+.welcometext {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
 
 }
 
-.text{
-    display:flex;
+.text {
+    display: flex;
     font-size: 3rem;
     padding-left: 15rem;
     top: 0;
-    
+
 }
 
-.idea{
+.idea {
     margin: 0.3ch;
     font-size: 2rem;
     color: yellow;
     writing-mode: vertical-rl;
 }
 
-.innovation{
+.innovation {
     padding-top: 3rem;
     margin: 0.3ch;
     font-size: 2rem;
-    color:lightseagreen;
-   
+    color: lightseagreen;
+
 }
 
-.execution{
+.execution {
     margin: 0.3ch;
     font-size: 2rem;
     color: greenyellow;
 }
-.teamwork{
+
+.teamwork {
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
@@ -71,39 +71,47 @@ text-align: center;
     align-items: center;
 }
 
+.displayImage {
+    width: 400px;
+    height: 400px;
+}
 
 
-
-.section2{
+.section2 {
     height: 70vh;
     background-color: rgb(0, 80, 77);
     justify-content: center;
     align-items: center;
 }
 
-.sec2div{
+.sec2div {
     padding-top: 3rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-auto-rows: minmax(60vh, auto);
-       
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(60vh, auto);
+
 }
 
-.sec2div :nth-of-type(1){
+.sec2div :nth-of-type(1) {
     justify-content: flex-end;
 }
-.sec2div :nth-of-type(2){
+
+.sec2div :nth-of-type(2) {
     justify-content: flex-start;
 }
-.sec2div :nth-of-type(3){
+
+.sec2div :nth-of-type(3) {
     justify-content: flex-end;
 }
-.sec2div :nth-of-type(4){
+
+.sec2div :nth-of-type(4) {
     justify-content: flex-start;
 }
-.sec2div :nth-of-type(5){
+
+.sec2div :nth-of-type(5) {
     justify-content: flex-end;
 }
+
 /* .sec2div :nth-of-type(1){
    display: flex;
    flex-direction: column;
@@ -112,13 +120,14 @@ text-align: center;
     
 } */
 
-.sec2div2{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   
+.sec2div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
-.sec3div2div{
+
+.sec3div2div {
     max-width: 20rem;
     background-color: rgba(40, 2, 80, 0.628);
     display: flex;
@@ -130,19 +139,204 @@ text-align: center;
 }
 
 
-.section3{
+.section3 {
     height: 60vh;
     background-color: black;
 }
 
-.product{   
-display: flex;
-flex-direction: column;
-justify-content: center;
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
-.pname{
+.pname {
     margin: 0;
     padding: 0;
+}
+
+@media (min-width: 300px) and (max-width: 430px){
+
+    .container{
+        padding: 1rem 0;
+        grid-template-columns: none;
+    }
+
+    .text{
+        font-size: 2.1rem;
+        padding: 0 1.5rem;
+
+    }
+
+    .idea, .innovation, .execution {
+        font-size: 1.5rem;
+    }
+
+    .teamwork{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .displayImage{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
+
+    .section2{
+        height: auto;
+    }
+
+    .sec2div{
+        padding: .5rem 0;
+        grid-template-columns: none;
+        grid-auto-rows: auto;
+    }
+
+    .sec2div div {
+        justify-content: center;
+        margin: .35rem 0;
+        border-radius: 10px;
+    }
+
+}
+@media (min-width: 250px) and (max-width: 290px){
+
+    .container{
+        padding: 1rem 0;
+        grid-template-columns: none;
+    }
+
+    .text{
+        font-size: 1.7rem;
+        padding: 0 .9rem;
+
+    }
+
+    .idea, .innovation, .execution {
+        font-size: 1.3rem;
+    }
+
+    .teamwork{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .displayImage{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
+
+    .section2{
+        height: auto;
+    }
+
+    .sec2div{
+        padding: .5rem 0;
+        grid-template-columns: none;
+        grid-auto-rows: auto;
+    }
+
+    .sec2div div {
+        justify-content: center;
+        margin: .35rem .5rem;
+        border-radius: 10px;
+    }
+
+}
+@media (min-width: 970px) and (max-width: 1380px){
+
+    .text{
+        padding-left: 5rem;
+    }
+
+    .section2 {
+        height: auto;
+    }
+
+    .sec2div{
+        padding: 0 .35rem;
+        grid-auto-rows: auto;
+    }
+
+    .sec2div div {
+        justify-content: center;
+        margin: .35rem .20rem;
+        border-radius: 10px;
+    }
+
+}
+@media (min-width: 750px) and (max-width: 920px){
+
+    .container{
+        padding: 1rem 0;
+    }
+
+    .text{
+        font-size: 2.6rem;
+        padding-left: 2rem;
+    }
+
+    .displayImage{
+        width: 350px;
+        height: 350px;
+        margin-bottom: 2rem;
+    }
+
+    .section2 {
+        height: auto;
+    }
+
+    .sec2div{
+        padding: 0 .35rem;
+        grid-auto-rows: auto;
+    }
+
+    .sec2div div {
+        justify-content: center;
+        margin: .35rem .20rem;
+        border-radius: 10px;
+        width: 9.5rem;
+    }
+
+}
+@media (min-width: 520px) and (max-width: 690px){
+    .container{
+        padding: 1rem 0;
+        grid-template-columns: none;
+    }
+
+    .text{
+        padding: 0 1.5rem;
+
+    }
+
+    .teamwork{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .displayImage{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
+
+    .section2{
+        height: auto;
+    }
+
+    .sec2div{
+        padding: .5rem 0;
+        grid-template-columns: none;
+        grid-auto-rows: auto;
+    }
+
+    .sec2div div {
+        justify-content: center;
+        margin: 1rem 0;
+        border-radius: 10px;
+    }
 }
