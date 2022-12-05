@@ -118,4 +118,18 @@
     }
 }
 @media (min-width: 520px) and (max-width: 690px){
+    .each_service{
+        margin: 1rem 0rem;
+        height: 280px;
+    }
+
+    .service_text {
+        justify-content:center;
+        width: 35vh;
+    }
+
+    .service_img {
+        width: 35vh;
+        height: 35vh;
+    }
 }

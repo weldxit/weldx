@@ -258,13 +258,12 @@
 
     .sec2div{
         padding: 0 .35rem;
-        grid-auto-rows: auto;
+        grid-auto-rows: minmax(90vh, auto);
     }
 
     .sec2div div {
         justify-content: center;
         margin: .35rem .20rem;
-        border-radius: 10px;
     }
 
 }
