@@ -16,7 +16,7 @@ export default function Default() {
             </h3>
           </div>
           <div className={style.teamwork}>
-            <Image src={"/team.png"} width={400} height={400} alt="logo" />
+            <Image src={"/team.png"} width={400} height={400} alt="logo" className={style.displayImage}/>
           </div>
         </div>
       </section>
