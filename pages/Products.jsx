@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar";
 import style from "../styles/Product.module.css";
 import Default from "./Default";
-import Footer from "./components/Footer";
+import Footer from "../components/Footer";
 import Image from "next/image";
 export default function Products() {
   return (

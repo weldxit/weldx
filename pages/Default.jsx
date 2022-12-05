@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import style from "../styles/Default.module.css";
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar";
 export default function Default() {
   return (
     <div className={style.section}>
