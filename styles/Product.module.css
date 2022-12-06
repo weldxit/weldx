@@ -35,7 +35,7 @@
 }
 
 .erp_card {
-    margin: 0;
+    margin: 0 20px;
     padding: 0;
     height: 48vh;
     width: 46vh;
@@ -50,7 +50,9 @@
 .erp_name {
     text-shadow: 1px 1px 1px rgb(113, 113, 113);
     color: rgb(126, 189, 228);
-    font-size: 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 10px 0;
 }
 
 .feature_list {
@@ -64,9 +66,9 @@
 }
 
 .li {
-    margin: 8px;
-    text-align: center;
-    font-size: 1.2rem;
+    margin: 5px;
+    text-align: justify;
+    font-size: .85rem;
     font-weight: 300;
     color: gray;
     font-family: 'Times New Roman', Times, serif;
@@ -216,7 +218,6 @@
         padding-top: 0;
     }
 
-    
 
     .erp_heading{
         text-align: center;
@@ -229,7 +230,7 @@
         width: auto;
     }
     .erp_card {
-        overflow: hidden;
+        padding: 0 10px;
         margin: 1.5rem 0;
         height: 40vh;
         width: 40vh;
@@ -238,10 +239,12 @@
 
     .erp_name {
         font-size: 1.5rem;
+        text-align: center;
     }
 
-    .li {
-        font-size: 1rem;
+    .li{
+        margin: 4px 0;
+        font-size: 0.8rem;
     }
 
     .featured_product {
@@ -311,19 +314,21 @@
         width: auto;
     }
     .erp_card {
-        overflow: hidden;
-        margin: 1rem 0;
-        height: 35vh;
-        width: 35vh;
+        padding: 0 10px;
+        margin: 1.5rem 0;
+        height: 40vh;
+        width: 40vh;
         border-radius: 10px;
     }
 
     .erp_name {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        text-align: center;
     }
 
-    .li {
-        font-size: 1rem;
+    .li{
+        margin: 4px 0;
+        font-size: 0.7rem;
     }
 
     .featured_product {
@@ -381,9 +386,19 @@
 
 }
 
-@media (min-width: 970px) and (max-width: 1380px) {
+@media (min-width: 970px) and (max-width: 1080px) {
     .erp_card {
-        overflow: hidden;
+        padding: 0 10px;
+    }
+
+    .erp_name {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .li{
+        margin: 5px 0;
+        font-size: 0.7rem;
     }
 
     .req,
@@ -400,7 +415,7 @@
     }
 
     .featuring_products {
-        padding: 20px;
+        padding: 20vh;
     }
     .s4{
         font-size: 3rem;
@@ -419,11 +434,20 @@
     }
 
     .erp_card {
-        overflow: hidden;
+        padding: 0 10px;
         height: 30vh;
         width: 30vh;
     }
-    
+
+    .erp_name {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .li{
+        margin: 5px 0;
+        font-size: .9rem;
+    }
 
     .featured_product {
         height: 50vh;
@@ -494,7 +518,7 @@
     }
 
     .li {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .featured_product {

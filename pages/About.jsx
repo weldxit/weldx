@@ -3,6 +3,7 @@ import style from '../styles/About.module.css'
 import Navbar from '../components/Navbar'
 import Image from 'next/image'
 import Default from './Default'
+import FAQ from '../components/FAQ'
 export default function About() {
   return (
     <div className={style.section}>
@@ -34,31 +35,36 @@ export default function About() {
           <h2 className={style.expert_text_h2}>Seamless Management</h2>
         </div>
 
-        <div className={style.expert_vision}>
+        <div style={{ display: "flex" }}>
+          <div className={style.expert_vision}>
 
-          <div className={style.expert_vision_img}>
-            <Image src={'/teamwork.png'} fill={true} alt="vision" />
+            <div className={style.expert_vision_img}>
+              <Image src={'/teamwork.png'} fill={true} alt="vision" />
 
+            </div>
+            <h2 className={style.expert_vision_h2}>Our Vision</h2>
+            <p className={style.expert_vision_p}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ducimus delectus nisi dolores eveniet enim totam obcaecati culpa, dignissimos saepe est alias numquam et earum ipsa dolorem eligendi error nemo!
+            </p>
           </div>
-          <h2 className={style.expert_vision_h2}>Our Vision</h2>
-          <p className={style.expert_vision_p}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ducimus delectus nisi dolores eveniet enim totam obcaecati culpa, dignissimos saepe est alias numquam et earum ipsa dolorem eligendi error nemo!
-          </p>
+
+          <div className={style.expert_vision}>
+
+            <div className={style.expert_vision_img}>
+              <Image src={'/teamwork.png'} fill={true} alt="vision" />
+
+            </div>
+            <h2 className={style.expert_vision_h2}>Our Aim</h2>
+            <p className={style.expert_vision_p}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ducimus delectus nisi dolores eveniet enim totam obcaecati culpa, dignissimos saepe est alias numquam et earum ipsa dolorem eligendi error nemo!
+            </p>
+          </div>
+
         </div>
-    
-        <div className={style.expert_vision}>
-
-<div className={style.expert_vision_img}>
-  <Image src={'/teamwork.png'} fill={true} alt="vision" />
-
-</div>
-<h2 className={style.expert_vision_h2}>Our Aim</h2>
-<p className={style.expert_vision_p}>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ducimus delectus nisi dolores eveniet enim totam obcaecati culpa, dignissimos saepe est alias numquam et earum ipsa dolorem eligendi error nemo!
-</p>
-</div>
-
       </section>
+      <div>
+        <FAQ />
+      </div>
     </div>
   )
 }

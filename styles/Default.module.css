@@ -74,6 +74,17 @@
 .displayImage {
     width: 400px;
     height: 400px;
+    animation: mymove 5s;
+}
+
+@keyframes mymove {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -156,39 +167,41 @@
     padding: 0;
 }
 
-@media (min-width: 300px) and (max-width: 430px){
+@media (min-width: 300px) and (max-width: 430px) {
 
-    .container{
+    .container {
         padding: 1rem 0;
         grid-template-columns: none;
     }
 
-    .text{
+    .text {
         font-size: 2.1rem;
         padding: 0 1.5rem;
 
     }
 
-    .idea, .innovation, .execution {
+    .idea,
+    .innovation,
+    .execution {
         font-size: 1.5rem;
     }
 
-    .teamwork{
+    .teamwork {
         flex-direction: column;
         margin-top: 0;
     }
 
-    .displayImage{
+    .displayImage {
         width: 200px;
         height: 200px;
         margin-bottom: 2rem;
     }
 
-    .section2{
+    .section2 {
         height: auto;
     }
 
-    .sec2div{
+    .sec2div {
         padding: .5rem 0;
         grid-template-columns: none;
         grid-auto-rows: auto;
@@ -201,39 +214,42 @@
     }
 
 }
-@media (min-width: 250px) and (max-width: 290px){
 
-    .container{
+@media (min-width: 250px) and (max-width: 290px) {
+
+    .container {
         padding: 1rem 0;
         grid-template-columns: none;
     }
 
-    .text{
+    .text {
         font-size: 1.7rem;
         padding: 0 .9rem;
 
     }
 
-    .idea, .innovation, .execution {
+    .idea,
+    .innovation,
+    .execution {
         font-size: 1.3rem;
     }
 
-    .teamwork{
+    .teamwork {
         flex-direction: column;
         margin-top: 0;
     }
 
-    .displayImage{
+    .displayImage {
         width: 200px;
         height: 200px;
         margin-bottom: 2rem;
     }
 
-    .section2{
+    .section2 {
         height: auto;
     }
 
-    .sec2div{
+    .sec2div {
         padding: .5rem 0;
         grid-template-columns: none;
         grid-auto-rows: auto;
@@ -246,17 +262,18 @@
     }
 
 }
-@media (min-width: 970px) and (max-width: 1380px){
 
-    .text{
-        padding-left: 5rem;
+@media (min-width: 970px) and (max-width: 1380px) {
+
+    .text {
+        padding-left: 10rem;
     }
 
     .section2 {
         height: auto;
     }
 
-    .sec2div{
+    .sec2div {
         padding: 0 .35rem;
         grid-auto-rows: minmax(90vh, auto);
     }
@@ -267,18 +284,19 @@
     }
 
 }
-@media (min-width: 750px) and (max-width: 920px){
 
-    .container{
+@media (min-width: 750px) and (max-width: 920px) {
+
+    .container {
         padding: 1rem 0;
     }
 
-    .text{
+    .text {
         font-size: 2.6rem;
         padding-left: 2rem;
     }
 
-    .displayImage{
+    .displayImage {
         width: 350px;
         height: 350px;
         margin-bottom: 2rem;
@@ -288,7 +306,7 @@
         height: auto;
     }
 
-    .sec2div{
+    .sec2div {
         padding: 0 .35rem;
         grid-auto-rows: auto;
     }
@@ -301,33 +319,34 @@
     }
 
 }
-@media (min-width: 520px) and (max-width: 690px){
-    .container{
+
+@media (min-width: 520px) and (max-width: 690px) {
+    .container {
         padding: 1rem 0;
         grid-template-columns: none;
     }
 
-    .text{
+    .text {
         padding: 0 1.5rem;
 
     }
 
-    .teamwork{
+    .teamwork {
         flex-direction: column;
         margin-top: 0;
     }
 
-    .displayImage{
+    .displayImage {
         width: 200px;
         height: 200px;
         margin-bottom: 2rem;
     }
 
-    .section2{
+    .section2 {
         height: auto;
     }
 
-    .sec2div{
+    .sec2div {
         padding: .5rem 0;
         grid-template-columns: none;
         grid-auto-rows: auto;

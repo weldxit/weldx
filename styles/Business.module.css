@@ -1,0 +1,184 @@
+.Business {
+    color: black;
+    width: 1100px;
+    margin: auto;
+}
+
+.Heading {
+    margin: 2rem;
+    text-align: center;
+   
+}
+
+.H {
+    width: 90vh;
+    color: #191f4f;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #fe2d95;
+    margin: auto;
+}
+
+.P {
+    width: 110vh;
+    font-size: 20px;
+    padding-top: 20px;
+    color: #333;
+    margin: auto;
+}
+
+.prods {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Prod {
+    width: 29.8%;
+    height: 400px;
+    margin: 1.2rem;
+    box-shadow: rgba(236, 86, 143, 0.35) 0px 5px 15px;
+    border: 1px solid rgba(236, 86, 143, 0.35);
+    text-align: center;
+    padding: 20px;
+}
+
+.pImg {
+    width: 100px;
+    height: 100px;
+    margin: 3rem 0 2rem;
+}
+
+.name {
+    color: #191f4f;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #fe2d95;
+}
+
+.des {
+    color: #333;
+    font-size: 15px;
+    text-align: justify;
+}
+
+@media (min-width: 300px) and (max-width: 430px){
+    .Business {
+        width: auto;
+    }
+
+    .H {
+        width: auto;
+        font-size: 1.5rem;
+    }
+
+    .P {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .Prod {
+        width: auto;
+    }
+}
+@media (min-width: 250px) and (max-width: 290px){
+    .Business {
+        width: auto;
+    }
+
+    .H {
+        width: auto;
+        font-size: 1.1rem;
+    }
+
+    .P {
+        width: auto;
+        font-size: 12px;
+    }
+
+    .Prod {
+        width: auto;
+        height: 300px;
+    }
+
+    .pImg {
+        width: 70px;
+        height: 70px;
+        margin: 2rem 01.5rem;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .des {
+        font-size: 12px;
+    }
+}
+@media (min-width: 970px) and (max-width: 1080px){
+    .Business {
+        width: auto;
+    }
+
+    .H {
+        font-size: 1.8rem;
+    }
+
+    .P {
+        font-size: 16px;
+    }
+
+    .Prod {
+        width: 29.5%;
+    }
+}
+@media (min-width: 750px) and (max-width: 920px){
+    .Business {
+        width: auto;
+    }
+
+    .H {
+        width: auto;
+    }
+
+    .P {
+        width: auto;
+    }
+
+    .Prod {
+        width: 28.5%;
+        height: 350px;
+    }
+
+    .pImg {
+        width: 70px;
+        height: 70px;
+        margin: 2rem 01.5rem;
+    }
+
+    .name {
+        font-size: 1.025rem;
+    }
+
+    .des {
+        font-size: 15px;
+    }
+    
+}
+@media (min-width: 520px) and (max-width: 690px){
+    .Business {
+        width: auto;
+    }
+
+    .H {
+        width: auto;
+        font-size: 1.5rem;
+    }
+
+    .P {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .Prod {
+        width: 60%;
+        margin: 20px auto;
+    }
+}

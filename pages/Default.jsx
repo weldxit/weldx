@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import style from "../styles/Default.module.css";
 import Navbar from "../components/Navbar";
+import Explore from "../components/Explore";
+import Business from "../components/Business";
 export default function Default() {
   return (
     <div className={style.section}>
@@ -20,6 +22,10 @@ export default function Default() {
           </div>
         </div>
       </section>
+
+      <div>
+        <Business />
+      </div>
 
       <section className={style.section2}>
         <div className={style.sec2div}>
@@ -89,6 +95,10 @@ export default function Default() {
           </div>
         </div>
       </section>
+
+      <div>
+        <Explore />
+      </div>
 
       <section className={style.section3}>
       

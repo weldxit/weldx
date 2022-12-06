@@ -45,7 +45,7 @@ export default function Products() {
             </div>
             <div className={style.erp_card}>
               {" "}
-              <h1 className={style.erp_name}>Medicash Smart Hospital <br /> ERP</h1>
+              <h1 className={style.erp_name}>Medicash Smart Hospital ERP</h1>
               <div className={style.erp_features}>
                 <ul className={style.feature_list}>
                   <li className={style.li}>
