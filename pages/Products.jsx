@@ -4,10 +4,11 @@ import style from "../styles/Product.module.css";
 import Default from "./Default";
 import Footer from "../components/Footer";
 import Image from "next/image";
+import TheNav from "../components/TheNav";
 export default function Products() {
   return (
     <div className={style.root}>
-      <Navbar />
+      <TheNav />
       <section className={style.section1}>
         <div className={style.erp}>
           <h1 className={style.erp_heading}>Enterprise Resource Planning</h1>

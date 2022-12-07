@@ -1,39 +1,7 @@
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 5rem;
-    background-color: rgba(99, 213, 241, 0.664);
-}
-
-.navbutton{
-    box-sizing: border-box;
-    margin: 2rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-@media (min-width: 300px) and (max-width: 430px){
-    
-    .navbutton{
-        margin: 1rem;
-    }
-
-}
-@media (min-width: 250px) and (max-width: 290px){
-
-    .navbutton{
-        margin: .5rem;
-    }
-
-}
-@media (min-width: 970px) and (max-width: 1380px){
-
-}
-@media (min-width: 750px) and (max-width: 920px){
-
-}
-@media (min-width: 520px) and (max-width: 690px){
-    
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
 }

@@ -5,11 +5,12 @@ import style from "../styles/Service.module.css";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import Client from "../components/Client";
+import TheNav from "../components/TheNav";
 
 export default function Services() {
   return (
     <div className={style.section}>
-      <Navbar />
+      <TheNav />
       <section className={style.services}>
         <section>
           <div className={style.each_service}>

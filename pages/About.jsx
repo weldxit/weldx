@@ -4,15 +4,16 @@ import Navbar from '../components/Navbar'
 import Image from 'next/image'
 import Default from './Default'
 import FAQ from '../components/FAQ'
+import TheNav from '../components/TheNav'
 export default function About() {
   return (
     <div className={style.section}>
-      <Navbar />
+      <TheNav />
       <section className={style.about}>
 
         <div className={style.ab_image}>
 
-          <Image src={'/teamwork.png'} fill={true} alt="team work" />
+          <Image src={'/idea.gif'} fill={true} alt="team work"/>
         </div>
         <div className={style.ab_text}>
 
@@ -39,7 +40,7 @@ export default function About() {
           <div className={style.expert_vision}>
 
             <div className={style.expert_vision_img}>
-              <Image src={'/teamwork.png'} fill={true} alt="vision" />
+              <Image src={'/vision.png'} fill={true} alt="vision" />
 
             </div>
             <h2 className={style.expert_vision_h2}>Our Vision</h2>
@@ -51,7 +52,7 @@ export default function About() {
           <div className={style.expert_vision}>
 
             <div className={style.expert_vision_img}>
-              <Image src={'/teamwork.png'} fill={true} alt="vision" />
+              <Image src={'/aim.png'} fill={true} alt="vision" />
 
             </div>
             <h2 className={style.expert_vision_h2}>Our Aim</h2>

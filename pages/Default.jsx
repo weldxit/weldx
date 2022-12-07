@@ -23,79 +23,17 @@ export default function Default() {
         </div>
       </section>
 
+      <div className={style.paragraph}>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, dolore optio? Nemo quibusdam explicabo eius rem neque error, dignissimos, beatae iure animi dolor asperiores hic recusandae debitis nesciunt accusantium a? Saepe sunt, adipisci recusandae quos sit eum dicta, mollitia alias ex veritatis veniam consequatur? Magni dolorum repellendus corporis repellat nesciunt!</p>
+      </div>
+
       <div>
         <Business />
       </div>
 
-      <section className={style.section2}>
-        <div className={style.sec2div}>
-          <div className={style.sec2div2}>
-            <div className={style.sec3div2div}>
-              <h1 className={style.verticaltext}>Faster Developement</h1>
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                expedita voluptatum distinctio possimus, nulla veritatis earum
-                cumque dolores nihil fugiat eveniet, hic quia placeat, sequi
-                deleniti tempore! Amet, eos aut. Earum exercitationem
-              </p>
-            </div>
-          </div>
-
-          <div className={style.sec2div2}>
-            <div className={style.sec3div2div}>
-              <h1 className={style.verticaltext}>Faster Developement</h1>
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                expedita voluptatum distinctio possimus, nulla veritatis earum
-                cumque dolores nihil fugiat eveniet, hic quia placeat, sequi
-                deleniti tempore! Amet, eos aut. Earum exercitationem
-              </p>
-            </div>
-          </div>
-
-          <div className={style.sec2div2}>
-            <div className={style.sec3div2div}>
-              <h1 className={style.verticaltext}>Faster Developement</h1>
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                expedita voluptatum distinctio possimus, nulla veritatis earum
-                cumque dolores nihil fugiat eveniet, hic quia placeat, sequi
-                deleniti tempore! Amet, eos aut. Earum exercitationem
-              </p>
-            </div>
-          </div>
-
-          <div className={style.sec2div2}>
-            <div className={style.sec3div2div}>
-              <h1 className={style.verticaltext}>Faster Developement</h1>
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                expedita voluptatum distinctio possimus, nulla veritatis earum
-                cumque dolores nihil fugiat eveniet, hic quia placeat, sequi
-                deleniti tempore! Amet, eos aut. Earum exercitationem
-              </p>
-            </div>
-          </div>
-
-          <div className={style.sec2div2}>
-            <div className={style.sec3div2div}>
-              <h1 className={style.verticaltext}>Faster Developement</h1>
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                expedita voluptatum distinctio possimus, nulla veritatis earum
-                cumque dolores nihil fugiat eveniet, hic quia placeat, sequi
-                deleniti tempore! Amet, eos aut. Earum exercitationem
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <div style={{width: "100%", textAlign: "center"}}>
+      <Image src={'/saurav.png'} width={1000} height={500} className={style.saurav}/>
+      </div>
       <div>
         <Explore />
       </div>

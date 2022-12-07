@@ -24,10 +24,18 @@
 }
 
 .head {
-    color: #000;
     width: 70%;
 }
 
+.H{
+    color: #191f4f;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #fe2d95;
+}
+
+.P {
+    color: #333;
+}
 @media (min-width: 300px) and (max-width: 430px){
     .FAQarea{
         display: block;

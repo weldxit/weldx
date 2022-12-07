@@ -11,7 +11,7 @@
 }
 
 .H {
-    width: 90vh;
+    width: 40rem;
     color: #191f4f;
     padding-bottom: 20px;
     border-bottom: 4px solid #fe2d95;
@@ -19,7 +19,7 @@
 }
 
 .P {
-    width: 110vh;
+    width: 50rem;
     font-size: 20px;
     padding-top: 20px;
     color: #333;

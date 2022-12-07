@@ -15,8 +15,8 @@ const FAQ = () => {
             </div>
             <div className={style.FAQ}>
                 <div className={style.head}>
-                    <h1>Commonly Asked Questions</h1>
-                    <p>Our methodical approach is focused on revealing the essence of data driven solutions. Explore Commonly Asked Question and Answers for your business solutions.</p>
+                    <h1 className={style.H}>Commonly Asked Questions</h1>
+                    <p className={style.P}>Our methodical approach is focused on revealing the essence of data driven solutions. Explore Commonly Asked Question and Answers for your business solutions.</p>
                 </div>
                 <div className={style.Accordion}>
                     <Accordion>

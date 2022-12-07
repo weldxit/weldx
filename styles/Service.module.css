@@ -19,7 +19,7 @@
 .each_service {
     margin: 2rem;
     width: 70vmax;
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: row;
     justify-content: center;
