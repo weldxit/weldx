@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import style from "../styles/Service.module.css";
 import Footer from "../components/Footer";
 import Image from "next/image";
+import Client from "../components/Client";
 
 export default function Services() {
   return (
@@ -92,6 +93,9 @@ export default function Services() {
           </div>
         </div>
       </section>
+      <div>
+        <Client />
+      </div>
       <Footer />
     </div>
   );

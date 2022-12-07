@@ -25,6 +25,7 @@
 
 .erp_heading {
     color: black;
+    font-size: 2rem;
 }
 
 .erp_products {
@@ -76,13 +77,13 @@
 
 .featured_product {
     display: flex;
-
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 1;
     background-image: linear-gradient(25deg, #119CFDFF, purple);
     margin-top: 4rem;
-    height: 70vh;
+    height: 90vh;
 
 
 
@@ -107,12 +108,13 @@
 }
 
 .h1 {
-    font-size: 2rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .h2 {
     text-align: center;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .chain {
@@ -132,8 +134,8 @@
 
 
     border: none;
-    height: 18vh;
-    width: 18vh;
+    height: 25vh;
+    width: 25vh;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -170,6 +172,15 @@
     text-align: center;
 }
 
+.paragraph {
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    height: 250px;
+    font-size: 1rem;
+    padding: 20px 0;
+}
+
 
 .section3 {
     height: fit-content;
@@ -178,9 +189,9 @@
 }
 
 .featuring_products {
-    padding: 0 18rem;
+    padding: 0 8rem;
     position: relative;
-    height: 80vh;
+    height: 65vh;
     width: auto;
     background-image: linear-gradient(25deg, purple, #119CFDFF);
     display: flex;
@@ -198,16 +209,20 @@
 .s4 {
     margin: 0;
     padding: 0;
-    font-size: 4rem;
+    font-size: 3rem;
     color: aliceblue;
 
+}
+
+.p4 {
+    text-align: justify;
 }
 
 .image_iot {
 
     position: relative;
-    width: 70ch;
-    height: 60ch;
+    width: 60ch;
+    height: 40ch;
     object-fit: cover;
     box-shadow: 0.3rem, 0.3rem, 1rem purple;
 }
@@ -271,6 +286,16 @@
     .sol,
     .you {
         font-size: 1.1rem;
+        height: 18vh;
+        width: 18vh;
+    }
+
+    .paragraph {
+        width: auto;
+        margin: auto;
+        height: auto;
+        font-size: 1rem;
+        padding: 20px;
     }
 
     .featuring_products {
@@ -360,7 +385,18 @@
     .sol,
     .you {
         font-size: 1.1rem;
+        height: 18vh;
+        width: 18vh;
     }
+
+    .paragraph {
+        width: auto;
+        margin: auto;
+        height: auto;
+        font-size: 1rem;
+        padding: 20px;
+    }
+
 
     .featuring_products {
         padding: 0;
@@ -409,6 +445,15 @@
         width: 25vh;
         font-size: 1.3rem;
     }
+
+    .paragraph {
+        width: auto;
+        margin: auto;
+        height: auto;
+        font-size: 1rem;
+        padding: 20px;
+    }
+
 
     .featured_product{
         margin-top: 0;
@@ -466,6 +511,15 @@
         width: 14vh;
         font-size: 1.5rem;
     }
+
+    .paragraph {
+        width: auto;
+        margin: auto;
+        height: auto;
+        font-size: 1rem;
+        padding: 20px;
+    }
+
 
     .featuring_products {
         padding: 0;
@@ -545,7 +599,18 @@
     .sol,
     .you {
         font-size: 1.1rem;
+        height: 18vh;
+        width: 18vh;
     }
+
+    .paragraph {
+        width: auto;
+        margin: auto;
+        height: auto;
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
 
     .featuring_products {
         padding: 0;

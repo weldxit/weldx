@@ -233,18 +233,23 @@ export default function Products() {
             </div>
           </div>
         </div>
+        <div className={style.paragraph}>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, dolore optio? Nemo quibusdam explicabo eius rem neque error, dignissimos, beatae iure animi dolor asperiores hic recusandae debitis nesciunt accusantium a? Saepe sunt, adipisci recusandae quos sit eum dicta, mollitia alias ex veritatis veniam consequatur? Magni dolorum repellendus corporis repellat nesciunt!</p>
+      </div>
       </section>
+
+      
 
       <section className={style.section3}>
         <div className={style.featuring_products}>
           <div className={style.details_iot}>
             <h1 className={style.s4}>Smart Security & Survelliance System</h1>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quo
+            <p className={style.p4}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quo
             sit minus omnis. Earum rem dicta, atque dolores assumenda ipsum ad
             repellat vero libero. Error fugiat culpa architecto praesentium
             provident? Architecto cum unde suscipit sunt qui quibusdam quis
             adipisci maiores nulla vero culpa, hic minus harum aut vitae
-            placeat, a optio est. Eligendi earum quaerat placeat quis, obcaecati
+            placeat, a optio est. Eligendi earum quaerat placeat quis, obcaecati</p>
           </div>
           <div className={style.image_iot}>
             <Image src={"/iot.png"} fill={true} alt="iot" />

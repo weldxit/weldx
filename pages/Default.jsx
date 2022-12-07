@@ -10,7 +10,7 @@ export default function Default() {
       <section className={style.rootcontainer}>
         <div className={style.container}>
           <div className={style.welcometext}>
-            <h1 className={style.text}>Welcome to WeldX</h1>
+            <h1 className={style.text}>Welcome to&nbsp;<span style={{color: "#0097db"}}>Weld</span><span style={{color: "#fe2d95"}}>X</span></h1>
             <h3 className={style.text}>
               <span className={style.idea}>Ideas</span>
               <p className={style.innovation}>Innovation</p>
@@ -100,22 +100,7 @@ export default function Default() {
         <Explore />
       </div>
 
-      <section className={style.section3}>
       
-          <div className={style.product}>
-
-           <h2 className={style.pname}>Product Name</h2>
-           <ul>
-            <li>Product feature 1</li>
-            <li>Product feature 1</li>
-            <li>Product feature 1</li>
-            <li>Product feature 1</li>
-            <li>Product feature 1</li>
-            
-           </ul>
-          </div>
-  
-      </section>
     </div>
   );
 }
