@@ -30,9 +30,12 @@ export default function Default() {
       <div>
         <Business />
       </div>
-
+      <div style={{padding: "20px"}}>
+      <h1 className={style.H}>This is How We Operate</h1>
+      <p className={style.P}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias quae tenetur quod cumque vitae doloribus temporibus odit placeat amet quo minima at nam consequuntur suscipit corrupti, nemo ut iusto?</p>
       <div style={{width: "100%", textAlign: "center"}}>
       <Image src={'/saurav.png'} width={1000} height={500} className={style.saurav}/>
+      </div>
       </div>
       <div>
         <Explore />

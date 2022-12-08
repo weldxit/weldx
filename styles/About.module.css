@@ -26,17 +26,21 @@
 
 .ab_text {
     color: black;
-    width: 50vh;
+    width: 60vh;
 }
 
 .ab_text_h1 {
     margin-top: 0;
     font-size: 2rem;
+    color: #191f4f;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #fe2d95;
 }
 
 .ab_text_p {
     font-size: 1em;
     text-align: justify;
+    color: #333;
 }
 
 
@@ -82,13 +86,11 @@
 
     align-items: center;
     width: 50vh;
-    height: 70vh;
-    border: 1px solid lightblue;
-    background-color: azure;
+    height: auto;
     border-radius: 5px;
     margin: 0 1.6rem;
-    box-shadow: 2px 2px 4px lightblue;
-
+    box-shadow: rgba(236, 86, 143, 0.35) 0px 5px 15px;
+    border: 1px solid rgba(236, 86, 143, 0.35);
 }
 
 .expert_vision_img {
@@ -99,17 +101,19 @@
 
 .expert_vision_h2 {
     margin: 0;
-    padding: 0;
-    font-size: 2rem;
+    color: #191f4f;
+    padding-bottom: 10px;
+    font-size: 1.8rem;
+    border-bottom: 3px solid #fe2d95;
     text-align: center;
-    color: black;
+    width: 30vh;
 }
 
 .expert_vision_p {
     padding: 1rem;
     width: 50vh;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #333;
 }
 
 @media (min-width: 300px) and (max-width: 430px) {
@@ -154,7 +158,10 @@
     }
 
     .expert_vision_h2{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        padding: 0 0 5px;
+        width: 15vh;
+        margin: auto;
     }
 
     .expert_vision_p{
@@ -206,14 +213,17 @@
     }
 
     .expert_vision_h2{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        padding: 0 0 5px;
+        width: 12vh;
+        margin: auto;
     }
 
     .expert_vision_p{
-        width: 20vh;
+        width: 19vh;
         text-align: justify;
         padding: 0 1rem;
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
@@ -269,7 +279,10 @@
     }
 
     .expert_vision_h2{
-        font-size: 3rem;
+        font-size: 2.5rem;
+        padding: 0 0 5px;
+        width: 20vh;
+        margin: auto;
     }
 
     .expert_vision_p{
@@ -323,6 +336,9 @@
 
     .expert_vision_h2{
         font-size: 1.5rem;
+        padding: 0 0 5px;
+        width: 25vh;
+        margin: auto;
     }
 
     .expert_vision_p{
