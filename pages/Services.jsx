@@ -17,80 +17,65 @@ export default function Services() {
             <div className={style.service_text}>
               <h1 className={style.each_service_name}>Web Developement</h1>
               <p className={style.each_service_para}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus recusandae at error magni assumenda nulla accusantium
-                fugit quam dolorum minus illum sequi beatae, delectus rem
-                quisquam, nisi cupiditate eaque explicabo.
+                
               </p>
             </div>
 
             <div className={style.service_img}>
-              <Image src={"/trust-love.PNG"} fill={true} alt="img" />
+              <Image src={"https://cdn.pixabay.com/photo/2016/10/16/16/33/dual-screen-1745705_1280.png"} fill={true} alt="img" />
             </div>
           </div>
         </section>
 
         <div className={style.each_service}>
           <div className={style.service_text}>
-            <h1 className={style.each_service_name}>Web Developement</h1>
+            <h1 className={style.each_service_name}>Android Developement</h1>
             <p className={style.each_service_para}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus recusandae at error magni assumenda nulla accusantium
-              fugit quam dolorum minus illum sequi beatae, delectus rem
-              quisquam, nisi cupiditate eaque explicabo.
+            
             </p>
           </div>
 
           <div className={style.service_img}>
-            <Image src={"/trust-love.PNG"} fill={true} alt="img" />
+            <Image src={"https://cdn.pixabay.com/photo/2016/09/01/04/34/android-1635206_1280.png"} fill={true} alt="img" />
           </div>
         </div>
 
         <div className={style.each_service}>
           <div className={style.service_text}>
-            <h1 className={style.each_service_name}>Web Developement</h1>
+            <h1 className={style.each_service_name}>Machine Learning</h1>
             <p className={style.each_service_para}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus recusandae at error magni assumenda nulla accusantium
-              fugit quam dolorum minus illum sequi beatae, delectus rem
-              quisquam, nisi cupiditate eaque explicabo.
+         
             </p>
           </div>
 
           <div className={style.service_img}>
-            <Image src={"/trust-love.PNG"} fill={true} alt="img" />
+            <Image src={"https://www.analyticsinsight.net/wp-content/uploads/2020/02/ML.jpg"} fill={true} alt="img" />
           </div>
         </div>
 
         <div className={style.each_service}>
           <div className={style.service_text}>
-            <h1 className={style.each_service_name}>Web Developement</h1>
+            <h1 className={style.each_service_name}>Digital Transformation (IOT)</h1>
             <p className={style.each_service_para}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus recusandae at error magni assumenda nulla accusantium
-              fugit quam dolorum minus illum sequi beatae, delectus rem
-              quisquam, nisi cupiditate eaque explicabo.
+            
             </p>
           </div>
 
           <div className={style.service_img}>
-            <Image src={"/trust-love.PNG"} fill={true} alt="img" />
+            <Image src={"https://svitla.com/uploads/0/2327-iot.jpg?1562227999"} fill={true} alt="img" />
           </div>
         </div>
 
         <div className={style.each_service}>
           <div className={style.service_text}>
-            <h1 className={style.each_service_name}>Web Developement</h1>
+            <h1 className={style.each_service_name}>Analytics</h1>
             <p className={style.each_service_para}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus recusandae at error magni assumenda nulla accusantium
-              fugit quam dolorum minus illum sequi beatae, delectus rem
-              quisquam, nisi cupiditate eaque explicabo.
+          
             </p>
           </div>
 
           <div className={style.service_img}>
-            <Image src={"/trust-love.PNG"} fill={true} alt="img" />
+            <Image src={"https://static.vecteezy.com/system/resources/previews/000/408/086/original/illustration-of-data-analysis-graph-vector.jpg"} fill={true} alt="img" />
           </div>
         </div>
       </section>

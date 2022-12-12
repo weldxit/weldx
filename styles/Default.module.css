@@ -5,7 +5,7 @@
 
 .rootcontainer {
     margin-top: 0rem;
-    background-color: #fff;
+   background-image: url('https://cdn.pixabay.com/photo/2018/03/20/14/05/technology-3243375_1280.jpg');
     height: auto;
 
 
@@ -73,9 +73,11 @@
 }
 
 .displayImage {
-    width: 400px;
+    width: 380px;
     height: 400px;
-    animation: mymove 5s;
+    animation: mymove 7s;
+    border-radius: 25%;
+    overflow: hidden;
 }
 
 @keyframes mymove {
