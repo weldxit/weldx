@@ -4,6 +4,8 @@ import style from "../styles/Default.module.css";
 import Navbar from "../components/Navbar";
 import Explore from "../components/Explore";
 import Business from "../components/Business";
+import ContactForm from "../components/ContactForm";
+import Display from "../components/Display";
 export default function Default() {
   return (
     <div className={style.section}>
@@ -18,7 +20,9 @@ export default function Default() {
             </h3>
           </div>
           <div className={style.teamwork}>
-            <Image src={"/team.png"} width={400} height={400} alt="logo" className={style.displayImage} />
+            <div className={style.cf}>
+              <ContactForm />
+            </div>
           </div>
         </div>
       </section>
@@ -30,6 +34,9 @@ export default function Default() {
       <div>
         <Business />
       </div>
+      <div>
+        <Display />
+      </div>
       <div style={{ padding: "20px" }}>
         <h1 className={style.H}>This is How We Operate</h1>
         <p className={style.P}></p>
@@ -37,9 +44,9 @@ export default function Default() {
           <Image src={'/saurav.png'} width={1000} height={500} className={style.saurav} />
         </div>
       </div>
-      <div>
+      {/* <div>
         <Explore />
-      </div>
+      </div> */}
 
 
     </div>
