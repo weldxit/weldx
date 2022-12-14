@@ -23,7 +23,7 @@
 
 .ul {
     list-style: none;
-    text-align-last: left;
+    text-align: left;
 }
 
 .li {
@@ -69,6 +69,7 @@
         width: auto;
         margin: 20px 0;
         justify-content: space-around;
+        font-size: 15px;
     }
 
     .mediaDiv {

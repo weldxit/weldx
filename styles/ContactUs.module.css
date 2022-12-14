@@ -1,0 +1,215 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 30rem;
+    padding: 20px 0 50px;
+    width: 900px;
+    margin: auto;
+}
+
+.h {
+    font-size: 2.2rem;
+    color: #fe2d95;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    justify-content: space-between;
+}
+
+.input {
+    height: 60px;
+    width: 440px;
+    background: #fff;
+    border: 1px solid #fe2d95;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    color: #000;
+}
+
+.textarea {
+    height: 280px;
+    width: 440px;
+    background: #fff;
+    border: 1px solid #fe2d95;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: #000;
+    resize: none;
+}
+
+.input:focus,
+.textarea:focus {
+    border: 1px solid #0096d6;
+    outline: #0096d6;
+}
+
+.button {
+    background-color: #fe2d95;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.button:hover {
+    background-color: #0096d6;
+}
+
+@media (min-width: 300px) and (max-width: 430px) {
+    .form {
+        height: 35rem;
+        width: auto;
+    }
+
+    .div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 380px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        height: 240px;
+        justify-content: space-between;
+    }
+
+    .input {
+        height: 50px;
+        width: 250px;
+    }
+
+    .textarea {
+        height: 120px;
+        width: 250px;
+    }
+
+    .button {
+        font-size: 15px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 290px) {
+    .form {
+        height: 30rem;
+        width: auto;
+    }
+
+    .div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 315px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        justify-content: space-between;
+    }
+
+    .h {
+        font-size: 2rem;
+    }
+
+    .input {
+        height: 45px;
+        width: 220px;
+    }
+
+    .textarea {
+        height: 100px;
+        width: 220px;
+    }
+
+    .button {
+        font-size: 15px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 970px) and (max-width: 1080px) {
+    .form {
+        width: 800px;
+    }
+    .input {
+        width: 390px;
+    }
+
+    .textarea {
+        width: 390px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 920px) {
+    .form {
+        width: 800px;
+    }
+    .input {
+        width: 390px;
+    }
+
+    .textarea {
+        width: 390px;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 690px) {
+    .form {
+        height: 35rem;
+        width: auto;
+    }
+
+    .div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 380px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        height: 240px;
+        justify-content: space-between;
+    }
+
+    .input {
+        height: 50px;
+        width: 350px;
+    }
+
+    .textarea {
+        height: 120px;
+        width: 350px;
+    }
+
+    .button {
+        font-size: 15px;
+        height: 30px;
+    }
+
+
+}

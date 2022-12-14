@@ -6,7 +6,7 @@
 }
 
 .services {
-
+    padding: 20px;
     height: fit-content;
     width: 100%;
     display: flex;
@@ -18,7 +18,7 @@
 
 .each_service {
     margin: 2rem;
-    width: 70vmax;
+    /* width: 70vmax; */
     /* position: relative; */
     display: flex;
     flex-direction: row;

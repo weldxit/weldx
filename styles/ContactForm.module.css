@@ -6,7 +6,7 @@
     height: 35vh;
 }
 
-.input{
+.input {
     height: 50px;
     width: 250px;
     background: #fff;
@@ -16,12 +16,12 @@
     color: #000;
 }
 
-.input:focus{
+.input:focus {
     border: 1px solid #fe2d95;
     outline: #fe2d95;
 }
 
-.button{
+.button {
     background-color: #0096d6;
     border: none;
     height: 40px;
@@ -29,6 +29,48 @@
     font-size: 17px;
 }
 
-.button:hover{
+.button:hover {
     background-color: #fe2d95;
 }
+
+@media (min-width: 300px) and (max-width: 430px) {
+    .form {
+        height: 27vh;
+    }
+
+    .input {
+        height: 35px;
+        width: 200px;
+    }
+
+    .button {
+        font-size: 15px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 290px) {
+    .form {
+        height: 25vh;
+    }
+
+    .input {
+        height: 30px;
+        width: 150px;
+    }
+
+    .button {
+        font-size: 13px;
+        height: 25px;
+    }
+}
+
+@media (min-width: 970px) and (max-width: 1080px) {}
+
+@media (min-width: 750px) and (max-width: 920px) {
+    .form {
+        height: 25vh;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 690px) {}

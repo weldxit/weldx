@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import style from "../styles/Footer.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 
 export default function () {
@@ -15,27 +15,31 @@ export default function () {
         </div>
         <div className={style.linksDiv}>
           <div>
+            <p><span style={{color: "#fff", fontWeight: "bold"}}>SERVICE</span><span style={{color: "#fe2d95", fontWeight: "bold"}}>S</span></p>
+            <ul className={style.ul}>
+            <li><Link href={'#'} className={style.li}><span>App Development</span></Link></li>
+              <li><Link href={'#'} className={style.li}><span>Web Development</span></Link></li>
+              <li><Link href={'#'} className={style.li}><span>Data Analysis</span></Link></li>
+              <li><Link href={'#'} className={style.li}><span>Internet of Things</span></Link></li>
+              <li><Link href={'#'} className={style.li}><span>Machine Learning</span></Link></li>
+            </ul>
+          </div>
+          <div>
             <p><span style={{color: "#fff", fontWeight: "bold"}}>PRODUC</span><span style={{color: "#fe2d95", fontWeight: "bold"}}>T</span></p>
             <ul className={style.ul}>
-              <li><Link href={'#'} className={style.li}><span>Features</span></Link></li>
-              <li><Link href={'#'} className={style.li}><span>Integrations</span></Link></li>
-              <li><Link href={'#'} className={style.li}><span>Pricing</span></Link></li>
-              <li><Link href={'#'} className={style.li}><span>FAQ</span></Link></li>
+              <li><Link href={'#'} className={style.li}><span>ERP</span></Link></li>
+              <li><Link href={'#'} className={style.li}><span>School Management</span></Link></li>
+              <li><Link href={'#'} className={style.li}><span>Security System</span></Link></li>
+              <li><Link href={'#'} className={style.li}><span>Hospital Management</span></Link></li>
+              <li><Link href={'#'} className={style.li}><span>Smart Clinic</span></Link></li>
             </ul>
           </div>
           <div>
-            <p><span style={{color: "#fff", fontWeight: "bold"}}>COMPAN</span><span style={{color: "#fe2d95", fontWeight: "bold"}}>Y</span></p>
+            <p><span style={{color: "#fff", fontWeight: "bold"}}>OUR ADDRES</span><span style={{color: "#fe2d95", fontWeight: "bold"}}>S</span></p>
             <ul className={style.ul}>
-              <li><Link href={'#'} className={style.li}><span>Privacy</span></Link></li>
-              <li><Link href={'#'} className={style.li}><span>Teams of Service</span></Link></li>
-            </ul>
-          </div>
-          <div>
-            <p><span style={{color: "#fff", fontWeight: "bold"}}>DEVELOPER</span><span style={{color: "#fe2d95", fontWeight: "bold"}}>S</span></p>
-            <ul className={style.ul}>
-              <li><Link href={'#'} className={style.li}><span>Public API</span></Link></li>
-              <li><Link href={'#'} className={style.li}><span>Documentation</span></Link></li>
-              <li><Link href={'#'} className={style.li}><span>Guides</span></Link></li>
+              <li># 309/1801P, Niladri Vihar</li>
+              <li>BBSR, Odisha - 751021</li>
+              <li>Phone - 9937054201</li>
             </ul>
           </div>
         </div>
@@ -44,6 +48,7 @@ export default function () {
           <Link href={'#'} className={style.li}><FontAwesomeIcon icon={faFacebook} className={style.icon} /></Link>
           <Link href={'#'} className={style.li}><FontAwesomeIcon icon={faTwitter} className={style.icon} /></Link>
           <Link href={'#'} className={style.li}><FontAwesomeIcon icon={faInstagram} className={style.icon} /></Link>
+          <Link href={'#'} className={style.li}><FontAwesomeIcon icon={faLinkedin} className={style.icon} /></Link>
         </div>
       </div>
       <hr className={style.hr} />

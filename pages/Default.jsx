@@ -6,6 +6,7 @@ import Explore from "../components/Explore";
 import Business from "../components/Business";
 import ContactForm from "../components/ContactForm";
 import Display from "../components/Display";
+import ContactUs from "../components/ContactUs";
 export default function Default() {
   return (
     <div className={style.section}>
@@ -44,10 +45,15 @@ export default function Default() {
           <Image src={'/saurav.png'} width={1000} height={500} className={style.saurav} />
         </div>
       </div>
-      {/* <div>
+      <div>
+        <Display />
+      </div>
+      <div>
         <Explore />
-      </div> */}
-
+      </div>
+      <div>
+        <ContactUs />
+      </div>
 
     </div>
   );

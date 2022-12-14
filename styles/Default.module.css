@@ -5,8 +5,8 @@
 
 .rootcontainer {
     margin-top: 0rem;
-    background-image: url('https://wallpaper.dog/large/5522664.jpg');
-    background-size: cover;
+    /* background-image: url('https://wallpaper.dog/large/5522664.jpg');
+    background-size: cover; */
     height: 100vh;
 
 
@@ -39,7 +39,7 @@
     font-size: 3rem;
     padding-left: 15rem;
     top: 0;
-    color: #ffffff;
+    color: #191f4f;
 
 }
 
@@ -70,13 +70,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-	height: 450px;
-	width: 450px;
+    height: 450px;
+    width: 450px;
     position: absolute;
     right: 1rem;
     border-radius: 50% 0;
-    background-color: #fff;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #ffffff;
+    box-shadow: rgba(255, 255, 255, 0.251) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 
@@ -144,7 +144,9 @@
 
     .teamwork {
         flex-direction: column;
-        margin-top: 0;
+        top: 150px;
+        height: 325px;
+        width: 325px;
     }
 
     .displayImage {
@@ -200,7 +202,9 @@
 
     .teamwork {
         flex-direction: column;
-        margin-top: 0;
+        top: 150px;
+        height: 245px;
+        width: 245px;
     }
 
     .displayImage {
@@ -240,6 +244,12 @@
         padding-left: 10rem;
     }
 
+    .teamwork{
+        width: 400px;
+        height: 400px;
+        margin-top: 6rem;
+    }
+
     .paragraph {
         width: auto;
         margin: auto;
@@ -266,12 +276,15 @@
 @media (min-width: 750px) and (max-width: 920px) {
 
     .container {
-        padding: 1rem 0;
+        padding: 5rem 0;
     }
 
-    .text {
-        font-size: 2.6rem;
-        padding-left: 2rem;
+    .teamwork {
+        flex-direction: column;
+        top: 380px;
+        right: 130px;
+        height: 545px;
+        width: 545px;
     }
 
     .displayImage {
@@ -316,7 +329,10 @@
 
     .teamwork {
         flex-direction: column;
-        margin-top: 0;
+        top: 150px;
+        right: 40px;
+        /* height: 325px;
+        width: 325px; */
     }
 
     .displayImage {
