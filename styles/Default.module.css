@@ -7,7 +7,7 @@
     margin-top: 0rem;
     /* background-image: url('https://wallpaper.dog/large/5522664.jpg');
     background-size: cover; */
-    height: 100vh;
+    height: 100%;
 
 
 }
@@ -17,11 +17,14 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
     /* position: relative; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: 1fr 1fr; */
+    justify-content: space-between;
     align-content: center;
     align-items: center;
+    width: 1100px;
+    margin: auto;
 }
 
 
@@ -37,8 +40,9 @@
 .text {
     display: flex;
     font-size: 3rem;
-    padding-left: 15rem;
-    top: 0;
+    /* padding-left: 15rem; */
+    /* top: 0; */
+    margin: auto;
     color: #191f4f;
 
 }
@@ -65,15 +69,15 @@
 }
 
 .teamwork {
-    margin-top: 9rem;
+    /* margin-top: 9rem; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 450px;
     width: 450px;
-    position: absolute;
-    right: 1rem;
+    /* position: absolute; */
+    /* right: 1rem; */
     border-radius: 50% 0;
     background-color: #ffffff;
     box-shadow: rgba(255, 255, 255, 0.251) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
@@ -127,7 +131,10 @@
 
     .container {
         padding: 1rem 0;
-        grid-template-columns: none;
+        flex-direction: column;
+        width: auto;
+        justify-content: space-around;
+        height: 80vh;
     }
 
     .text {
@@ -144,7 +151,6 @@
 
     .teamwork {
         flex-direction: column;
-        top: 150px;
         height: 325px;
         width: 325px;
     }
@@ -185,7 +191,10 @@
 
     .container {
         padding: 1rem 0;
-        grid-template-columns: none;
+        flex-direction: column;
+        width: auto;
+        justify-content: space-around;
+        height: 80vh;
     }
 
     .text {
@@ -202,7 +211,6 @@
 
     .teamwork {
         flex-direction: column;
-        top: 150px;
         height: 245px;
         width: 245px;
     }
@@ -240,14 +248,16 @@
 
 @media (min-width: 970px) and (max-width: 1080px) {
 
-    .text {
-        padding-left: 10rem;
+    .container {
+        width: auto;
+        justify-content: space-around;
+        height: 70vh;
     }
 
     .teamwork{
         width: 400px;
         height: 400px;
-        margin-top: 6rem;
+        margin-top: 4rem;
     }
 
     .paragraph {
@@ -277,12 +287,14 @@
 
     .container {
         padding: 5rem 0;
+        flex-direction: column;
+        width: auto;
+        justify-content: space-around;
+        height: 80vh;
     }
 
     .teamwork {
         flex-direction: column;
-        top: 380px;
-        right: 130px;
         height: 545px;
         width: 545px;
     }
@@ -319,7 +331,10 @@
 @media (min-width: 520px) and (max-width: 690px) {
     .container {
         padding: 1rem 0;
-        grid-template-columns: none;
+        flex-direction: column;
+        width: auto;
+        justify-content: space-around;
+        height: 100vh;
     }
 
     .text {
