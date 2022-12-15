@@ -2,134 +2,301 @@
     padding: 0;
     height: fit-content;
     background-color: #fff;
-    color: aliceblue;
+    color: #000;
 }
 
-.services {
-    padding: 20px;
-    height: fit-content;
-    width: 100%;
+.intro {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tdiv {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
 }
 
-.each_service {
-    margin: 2rem;
-    /* width: 70vmax; */
-    /* position: relative; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: aliceblue;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0.1rem 0.1rem 0.5rem lightskyblue;
+.h1 {
+    font-size: 3.5rem;
+    color: #191f4f;
 }
 
-.service_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 50vh;
-    width: 50vh;
+.p1 {
+    font-size: 1.6rem;
+    color: #333;
 }
 
-.each_service_name {
-    margin: 0;
-    padding: 0;
-    font-size: 2rem;
-    color: black;
+.DisImg {
+    width: 500px;
+    height: 370px;
 }
 
-.each_service_para {
-    margin: 0;
-    padding: 0;
-    color: black;
-}
-
-.service_img {
-    position: relative;
-    height: 50vh;
-    width: 50vh;
-}
-
-
-@media (min-width: 300px) and (max-width: 430px){
-    .each_service{
-        width: 45vmax;
-        margin: 1rem 0rem;
-        flex-direction: column;
-        height: 500px;
+@media (min-width: 300px) and (max-width: 430px) {
+    .intro {
+        width: auto;
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 20px;
     }
 
-    .service_text {
-        justify-content: flex-start;
-        width: 40vh;
+    .DisImg {
+        width: 300px;
+        height: 220px;
     }
 
-    .service_img {
-        width: 40vh;
-        height: 40vh;
+    .h1 {
+        font-size: 2rem;
+    }
+
+    .p1 {
+        font-size: 1.2rem;
     }
 }
-@media (min-width: 250px) and (max-width: 290px){
 
-    .each_service{
-        width: 40vmax;
-        margin: 1rem 0rem;
-        flex-direction: column;
-        height: 500px;
+@media (min-width: 250px) and (max-width: 290px) {
+    .intro {
+        width: auto;
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 20px;
     }
 
-    .service_text {
-        justify-content: flex-start;
-        width: 35vh;
+    .DisImg {
+        width: 230px;
+        height: 150px;
     }
 
-    .service_img {
-        width: 35vh;
-        height: 35vh;
+    .h1 {
+        font-size: 1.5rem;
     }
 
+    .p1 {
+        font-size: 1rem;
+    }
 }
-@media (min-width: 970px) and (max-width: 1380px){
 
+@media (min-width: 970px) and (max-width: 1080px) {
+    .intro {
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+
+    .p1 {
+        font-size: 1.2rem;
+    }
 }
-@media (min-width: 750px) and (max-width: 920px){
 
-    .each_service{
-        width: 60vmax;
-        margin: 1rem 0rem;
+@media (min-width: 750px) and (max-width: 920px) {
+    .intro {
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+
+    .DisImg {
+        width: 400px;
         height: 300px;
     }
 
-    .service_text {
-        justify-content:center;
-        width: 30vh;
+    .h1 {
+        font-size: 3rem;
     }
 
-    .service_img {
-        width: 25vh;
-        height: 23vh;
+    .p1 {
+        font-size: 1.5rem;
     }
 }
-@media (min-width: 520px) and (max-width: 690px){
-    .each_service{
-        margin: 1rem 0rem;
-        height: 280px;
+
+@media (min-width: 520px) and (max-width: 690px) {
+    .intro {
+        width: auto;
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 20px;
     }
 
-    .service_text {
-        justify-content:center;
-        width: 35vh;
+    .h1 {
+        font-size: 3rem;
     }
 
-    .service_img {
-        width: 35vh;
-        height: 35vh;
+    .p1 {
+        font-size: 1.5rem;
+    }
+}
+
+.Who {
+    width: 1100px;
+    margin: auto;
+}
+
+.sec1,
+.sec2 {
+    display: flex;
+    margin: 4rem 0;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.textDiv {
+    width: 30rem;
+}
+
+.h {
+    margin-top: 0;
+    font-size: 2.5rem;
+    width: 16.5rem;
+    color: #191f4f;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #fe2d95;
+}
+
+.p {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #333;
+}
+
+.img {
+    width: 400px;
+    height: 400px;
+}
+
+@media (min-width: 300px) and (max-width: 430px) {
+    .Who {
+        width: auto;
+        padding: 20px;
+    }
+
+    .sec1 {
+        flex-direction: column-reverse;
+        margin: 1rem 0;
+    }
+
+    .sec2 {
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .textDiv {
+        width: auto;
+    }
+
+    .imgDiv {
+        text-align: center;
+    }
+
+    .img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 290px) {
+    .Who {
+        width: auto;
+        padding: 20px;
+    }
+
+    .sec1 {
+        flex-direction: column-reverse;
+        margin: 1rem 0;
+    }
+
+    .sec2 {
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .textDiv {
+        width: auto;
+    }
+
+    .imgDiv {
+        text-align: center;
+    }
+
+    .img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .h {
+        font-size: 2rem;
+        width: 13rem;
+    }
+
+    .p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 970px) and (max-width: 1080px) {
+    .Who {
+        width: auto;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 920px) {
+    .Who {
+        width: auto;
+        padding: 20px;
+    }
+
+    .textDiv {
+        width: auto;
+    }
+
+    .imgDiv {
+        text-align: center;
+    }
+
+    .img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .textDiv {
+        width: 20rem;
+    }
+
+    .h {
+        font-size: 2rem;
+        width: 13rem;
+    }
+
+    .p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 690px) {
+    .Who {
+        width: auto;
+        padding: 20px;
+    }
+
+    .sec1 {
+        flex-direction: column-reverse;
+        margin: 1rem 0;
+    }
+
+    .sec2 {
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .textDiv {
+        width: auto;
+    }
+
+    .imgDiv {
+        text-align: center;
     }
 }

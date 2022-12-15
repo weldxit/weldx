@@ -1,14 +1,324 @@
 .root {
     padding: 0;
-    height: 100vh;
-    background-color: rgb(182, 215, 236);
-    color: aliceblue;
+    height: fit-content;
+    background-color: #fff;
+    color: #000;
+}
 
+.intro {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.tdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h1 {
+    font-size: 3.5rem;
+    color: #191f4f;
+}
+
+.p1 {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.DisImg {
+    width: 500px;
+    height: 370px;
+}
+
+@media (min-width: 300px) and (max-width: 430px) {
+    .intro {
+        width: auto;
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .DisImg {
+        width: 300px;
+        height: 220px;
+    }
+
+    .h1 {
+        font-size: 2rem;
+    }
+
+    .p1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 290px) {
+    .intro {
+        width: auto;
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .DisImg {
+        width: 230px;
+        height: 150px;
+    }
+
+    .h1 {
+        font-size: 1.5rem;
+    }
+
+    .p1 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 970px) and (max-width: 1080px) {
+    .intro {
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+
+    .p1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 920px) {
+    .intro {
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+
+    .DisImg {
+        width: 400px;
+        height: 300px;
+    }
+
+    .h1 {
+        font-size: 3rem;
+    }
+
+    .p1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 690px) {
+    .intro {
+        width: auto;
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .h1 {
+        font-size: 3rem;
+    }
+
+    .p1 {
+        font-size: 1.5rem;
+    }
 }
 
 
-.section1 {
+.Business {
+    color: black;
+    width: 1100px;
+    margin: auto;
+}
+
+.Heading {
+    margin: 2rem;
+    text-align: center;
+   
+}
+
+.H {
+    width: 40rem;
+    color: #191f4f;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #fe2d95;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.P {
+    width: 50rem;
+    font-size: 20px;
+    padding-top: 20px;
+    color: #333;
+    margin: auto;
+}
+
+.prods {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Prod {
+    width: 29.8%;
+    height: 280px;
+    margin: 1.2rem;
+    box-shadow: rgba(116, 107, 110, 0.35) 0px 5px 15px;
+    border-top: 4px solid #0096d6;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+.pImg {
+    width: 100px;
+    height: 100px;
+    margin: 3rem 0 2rem;
+}
+
+.name {
+    color: #191f4f;
+    font-size: 1.5rem;
+}
+
+.des {
+    color: #333;
+    font-size: 15px;
+    text-align: justify;
+}
+
+@media (min-width: 300px) and (max-width: 430px){
+    .Business {
+        width: auto;
+    }
+
+    .H {
+        width: auto;
+        font-size: 1.5rem;
+    }
+
+    .P {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .Prod {
+        width: auto;
+    }
+}
+@media (min-width: 250px) and (max-width: 290px){
+    .Business {
+        width: auto;
+    }
+
+    .H {
+        width: auto;
+        font-size: 1.1rem;
+    }
+
+    .P {
+        width: auto;
+        font-size: 12px;
+    }
+
+    .Prod {
+        width: auto;
+        height: 400px;
+    }
+
+    .pImg {
+        width: 70px;
+        height: 70px;
+        margin: 2rem 01.5rem;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .des {
+        font-size: 12px;
+    }
+}
+@media (min-width: 970px) and (max-width: 1080px){
+    .Business {
+        width: auto;
+    }
+
+    .H {
+        font-size: 1.8rem;
+    }
+
+    .P {
+        font-size: 16px;
+    }
+
+    .Prod {
+        width: 29.5%;
+        height: 500px;
+    }
+}
+@media (min-width: 750px) and (max-width: 920px){
+    .Business {
+        width: auto;
+    }
+
+    .H {
+        width: auto;
+    }
+
+    .P {
+        width: auto;
+    }
+
+    .Prod {
+        width: 28.5%;
+        height: 470px;
+    }
+
+    .pImg {
+        width: 70px;
+        height: 70px;
+        margin: 1rem 0
+    }
+
+    .name {
+        font-size: 1.025rem;
+    }
+
+    .des {
+        font-size: 15px;
+    }
+    
+}
+@media (min-width: 520px) and (max-width: 690px){
+    .Business {
+        width: auto;
+    }
+
+    .H {
+        width: auto;
+        font-size: 1.5rem;
+    }
+
+    .P {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .Prod {
+        width: 60%;
+        margin: 20px auto;
+    }
+}
+
+
+/* .section1 {
     height: fit-content;
     background-color: rgba(255, 255, 255, 0.535);
     padding-top: 5rem;
@@ -632,4 +942,4 @@
         height: 300px;
         margin-bottom: 20px;
     }
-}
+} */

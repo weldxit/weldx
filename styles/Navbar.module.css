@@ -5,3 +5,10 @@
     background-color: #0096d6;
     z-index: 1000;
 }
+
+.navButton{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0.3rem;
+    display: flex;
+}

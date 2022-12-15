@@ -2,6 +2,7 @@
     background-color: #fff;
     display: flex;
     padding: 4rem 0;
+    min-height: 90vh;
 }
 
 .FAQ {
@@ -11,6 +12,7 @@
 .FAQimage {
     width: 50%;
     margin: 20px;
+    text-align: center;
 }
 
 .Image {
@@ -24,17 +26,19 @@
 }
 
 .head {
-    width: 70%;
+    width: 90%;
 }
 
 .H{
     color: #191f4f;
     padding-bottom: 20px;
     border-bottom: 4px solid #fe2d95;
+    font-size: 2.3rem;
 }
 
 .P {
     color: #333;
+    text-align: justify;
 }
 @media (min-width: 300px) and (max-width: 430px){
     .FAQarea{

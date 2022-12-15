@@ -31,8 +31,7 @@ const Business = () => {
                 <div className={style.Prod}>
                     <Image className={style.pImg} src={'/icon4.png'} width={100} height={100} alt=""/>
                     <h2 className={style.name}>Data Analysis</h2>
-                    <p className={style.des}>Track and analyze your business with an array of data driven platforms! Transform your business locally and globally with a new range of Data Analysis services from WeldX. We use (Data as a Service) DaaS for helping our global clients analyze their business data with business intelligence and take effective actions for better ROI.
-</p>
+                    <p className={style.des}>Track and analyze your business with an array of data driven platforms! Transform your business locally and globally with a new range of Data Analysis services from WeldX. We use (Data as a Service) DaaS for helping our global clients analyze their business data with business intelligence and take effective actions for better ROI.</p>
                     {/* <Image className={style.pImg} src={'/plus.png'} width={200} height={200} alt=""/> */}
                 </div>
                 <div className={style.Prod}>

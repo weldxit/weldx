@@ -7,6 +7,7 @@ import Business from "../components/Business";
 import ContactForm from "../components/ContactForm";
 import Display from "../components/Display";
 import ContactUs from "../components/ContactUs";
+import Client from "../components/Client";
 export default function Default() {
   return (
     <div className={style.section}>
@@ -44,6 +45,9 @@ export default function Default() {
         <div style={{ width: "100%", textAlign: "center" }}>
           <Image src={'/saurav.png'} width={1000} height={500} className={style.saurav} />
         </div>
+      </div>
+      <div>
+        <Client />
       </div>
       <div>
         <Display />

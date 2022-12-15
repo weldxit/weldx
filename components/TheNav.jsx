@@ -19,10 +19,12 @@ const TheNav = () => {
             
           </Nav>
           <Nav>
-            <Nav.Link href="/"><span style={{color: "#fff", fontWeight: "bold"}}>Hom</span><span style={{color: "#fe2d95", fontWeight: "bold"}}>e</span></Nav.Link>&nbsp;
-            <Nav.Link href="/Services"><span style={{color: "#fff", fontWeight: "bold"}}>Service</span><span style={{color: "#fe2d95", fontWeight: "bold"}}>s</span></Nav.Link>&nbsp;
-            <Nav.Link href="/Products"><span style={{color: "#fff", fontWeight: "bold"}}>Product</span><span style={{color: "#fe2d95", fontWeight: "bold"}}>s</span></Nav.Link>&nbsp;
-            <Nav.Link href="/About"><span style={{color: "#fff", fontWeight: "bold"}}>Abou</span><span style={{color: "#fe2d95", fontWeight: "bold"}}>t</span></Nav.Link>&nbsp;
+            <Nav.Link href="/" className={style.navButton}><span style={{color: "#fff"}}>Hom</span><span style={{color: "#fe2d95"}}>e</span></Nav.Link>&nbsp;
+            <Nav.Link href="/Services" className={style.navButton}><span style={{color: "#fff"}}>Service</span><span style={{color: "#fe2d95"}}>s</span></Nav.Link>&nbsp;
+            <Nav.Link href="/Products" className={style.navButton}><span style={{color: "#fff"}}>Product</span><span style={{color: "#fe2d95"}}>s</span></Nav.Link>&nbsp;
+            <Nav.Link href="/About" className={style.navButton}><span style={{color: "#fff"}}>About&nbsp;U</span><span style={{color: "#fe2d95"}}>s</span></Nav.Link>&nbsp;
+            <Nav.Link href="/Contact" className={style.navButton}><span style={{color: "#fff"}}>Contac</span><span style={{color: "#fe2d95"}}>t</span></Nav.Link>&nbsp;
+            <Nav.Link href="/FAQ" className={style.navButton}><span style={{color: "#fff"}}>FA</span><span style={{color: "#fe2d95"}}>Q</span></Nav.Link>&nbsp;
           </Nav>
         </Navbar.Collapse>
       </Container>

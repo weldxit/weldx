@@ -9,7 +9,47 @@ export default function Products() {
   return (
     <div className={style.root}>
       <TheNav />
-      <section className={style.section1}>
+      <div className={style.intro}>
+        <div className={style.tdiv}>
+          <h2 className={style.h1}>Exhibition of all Your Digital Need</h2>
+          <p className={style.p1}>Accelerate your business with our Product</p>
+        </div>
+        <div className={style.mdiv}>
+          <Image src={'/product.png'} width={500} height={370} className={style.DisImg} alt="WeldX" />
+        </div>
+      </div>
+      <div className={style.Business}>
+            <div className={style.Heading}>
+                <h1 className={style.H}>Fulfill your Need with our modern Products</h1>
+            </div>
+            <div className={style.prods}>
+                <div className={style.Prod}>
+                    <Image className={style.pImg} src={'/icon1.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>App Development</h2>
+                </div>
+                <div className={style.Prod}>
+                    <Image className={style.pImg} src={'/icon2.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>Web Development</h2>
+                </div>
+                <div className={style.Prod}>
+                    <Image className={style.pImg} src={'/icon3.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>Product Design</h2>
+                </div>
+                <div className={style.Prod}>
+                    <Image className={style.pImg} src={'/icon4.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>Data Analysis</h2>
+                </div>
+                <div className={style.Prod}>
+                    <Image className={style.pImg} src={'/icon5.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>Internet of Things</h2>
+                </div>
+                <div className={style.Prod}>
+                    <Image className={style.pImg} src={'/icon6.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>Machine Learning</h2>
+                </div>
+            </div>
+        </div>
+      {/* <section className={style.section1}>
         <div className={style.erp}>
           <h1 className={style.erp_heading}>Enterprise Resource Planning</h1>
           <div className={style.erp_products}>
@@ -256,7 +296,7 @@ export default function Products() {
             <Image src={"/iot.png"} fill={true} alt="iot" />
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </div>
   );
