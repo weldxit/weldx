@@ -5,6 +5,10 @@ import Default from "./Default";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import TheNav from "../components/TheNav";
+import ContactUs from "../components/ContactUs";
+import Display from "../components/Display";
+import Explore from "../components/Explore";
+import Top from "../components/Top";
 export default function Products() {
   return (
     <div className={style.root}>
@@ -12,7 +16,7 @@ export default function Products() {
       <div className={style.intro}>
         <div className={style.tdiv}>
           <h2 className={style.h1}>Exhibition of all Your Digital Need</h2>
-          <p className={style.p1}>Accelerate your business with our Product</p>
+          <p className={style.p1}>Accelerate your business with our Digital Product</p>
         </div>
         <div className={style.mdiv}>
           <Image src={'/product.png'} width={500} height={370} className={style.DisImg} alt="WeldX" />
@@ -24,30 +28,131 @@ export default function Products() {
             </div>
             <div className={style.prods}>
                 <div className={style.Prod}>
-                    <Image className={style.pImg} src={'/icon1.png'} width={100} height={100} alt=""/>
-                    <h2 className={style.name}>App Development</h2>
+                    <Image className={style.pImg} src={'/Picon1.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>Enterprise Resource Planning</h2>
                 </div>
                 <div className={style.Prod}>
-                    <Image className={style.pImg} src={'/icon2.png'} width={100} height={100} alt=""/>
-                    <h2 className={style.name}>Web Development</h2>
+                    <Image className={style.pImg} src={'/Picon2.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>Smart School Management</h2>
                 </div>
                 <div className={style.Prod}>
-                    <Image className={style.pImg} src={'/icon3.png'} width={100} height={100} alt=""/>
-                    <h2 className={style.name}>Product Design</h2>
+                    <Image className={style.pImg} src={'/Picon3.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>Smart Hospital Management</h2>
                 </div>
                 <div className={style.Prod}>
-                    <Image className={style.pImg} src={'/icon4.png'} width={100} height={100} alt=""/>
-                    <h2 className={style.name}>Data Analysis</h2>
+                    <Image className={style.pImg} src={'/Picon4.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>Smart Security & Survelliance System</h2>
                 </div>
                 <div className={style.Prod}>
-                    <Image className={style.pImg} src={'/icon5.png'} width={100} height={100} alt=""/>
-                    <h2 className={style.name}>Internet of Things</h2>
+                    <Image className={style.pImg} src={'/Picon5.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>Smart Clinic Management</h2>
                 </div>
                 <div className={style.Prod}>
-                    <Image className={style.pImg} src={'/icon6.png'} width={100} height={100} alt=""/>
-                    <h2 className={style.name}>Machine Learning</h2>
+                    <Image className={style.pImg} src={'/Picon6.png'} width={100} height={100} alt=""/>
+                    <h2 className={style.name}>e-Commerce</h2>
                 </div>
             </div>
+        </div>
+        <div>
+          <Display/>
+        </div>
+        <div className={style.Who}>
+            <div className={style.sec1}>
+                <div className={style.imgDiv}>
+                    <Image src={'/Pr1.png'} width={400} height={400} alt="WeldX" className={style.img} />
+                </div>
+                <div className={style.textDiv}>
+                    <h3 className={style.h}>Enterprise Resource Planning</h3>
+                    <ul className={style.p}>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+            </div>
+            <div className={style.sec2}>
+                <div className={style.textDiv}>
+                    <h3 className={style.h}>Smart School Management</h3>
+                    <ul className={style.p}>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+                <div className={style.imgDiv}>
+                    <Image src={'/Pr2.png'} width={400} height={400} alt="WeldX" className={style.img} />
+                </div>
+            </div>
+            <div className={style.sec1}>
+                <div className={style.imgDiv}>
+                    <Image src={'/Pr3.png'} width={400} height={400} alt="WeldX" className={style.img} />
+                </div>
+                <div className={style.textDiv}>
+                    <h3 className={style.h}>Smart Hospital Management</h3>
+                    <ul className={style.p}>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+            </div>
+            <div className={style.sec2}>
+                <div className={style.textDiv}>
+                    <h3 className={style.h}>Smart Security & Survelliance System</h3>
+                    <ul className={style.p}>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+                <div className={style.imgDiv}>
+                    <Image src={'/Pr4.png'} width={400} height={400} alt="WeldX" className={style.img} />
+                </div>
+            </div>
+            <div className={style.sec1}>
+                <div className={style.imgDiv}>
+                    <Image src={'/Pr5.jpg'} width={400} height={400} alt="WeldX" className={style.img} />
+                </div>
+                <div className={style.textDiv}>
+                    <h3 className={style.h}>Smart Clinic Management</h3>
+                    <ul className={style.p}>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+            </div>
+            <div className={style.sec2}>
+                <div className={style.textDiv}>
+                    <h3 className={style.h}>e-Commerce</h3>
+                    <ul className={style.p}>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+                <div className={style.imgDiv}>
+                    <Image src={'/Pr6.png'} width={400} height={400} alt="WeldX" className={style.img} />
+                </div>
+            </div>
+        </div>
+        <iv>
+          <Explore />
+        </iv>
+        <div>
+          <ContactUs />
         </div>
       {/* <section className={style.section1}>
         <div className={style.erp}>
@@ -297,6 +402,7 @@ export default function Products() {
           </div>
         </div>
       </section> */}
+      <Top />
       <Footer />
     </div>
   );

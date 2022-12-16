@@ -7,6 +7,8 @@ import TheNav from '../components/TheNav'
 import Who from '../components/Who'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
+import Explore from '../components/Explore'
+import Top from '../components/Top'
 
 export default function About() {
   return (
@@ -82,8 +84,12 @@ export default function About() {
         <Who />
       </div>
       <div>
+        <Explore />
+      </div>
+      <div>
         <ContactUs />
       </div>
+      <Top />
       <div>
         <Footer />
       </div>

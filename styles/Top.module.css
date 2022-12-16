@@ -1,0 +1,9 @@
+.button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 30px;
+    z-index: 1;
+    cursor: pointer;
+    color: #fe2d95;
+}

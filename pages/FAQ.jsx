@@ -8,6 +8,8 @@ import style from "../styles/FAQ.module.css";
 import TheNav from '../components/TheNav'
 import Footer from '../components/Footer'
 import Image from 'next/image';
+import ContactUs from '../components/ContactUs';
+import Top from '../components/Top';
 
 const FAQ = () => {
     return (
@@ -133,6 +135,10 @@ const FAQ = () => {
                     </div>
                 </div>
             </div>
+            <div>
+                <ContactUs />
+            </div>
+            <Top />
             <Footer />
         </div>
     )

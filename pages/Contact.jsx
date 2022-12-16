@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import Image from 'next/image';
 import Link from 'next/link';
 import ContactUs from '../components/ContactUs';
+import Top from '../components/Top';
 
 const Contact = () => {
     return (
@@ -44,6 +45,7 @@ const Contact = () => {
                 </div>
                 <ContactUs />
             </div>
+            <Top />
             <Footer />
         </div>
     )

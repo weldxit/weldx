@@ -8,10 +8,11 @@ import ContactForm from "../components/ContactForm";
 import Display from "../components/Display";
 import ContactUs from "../components/ContactUs";
 import Client from "../components/Client";
+import Top from "../components/Top";
 export default function Default() {
   return (
     <div className={style.section}>
-      <section className={style.rootcontainer}>
+      {/* <section className={style.rootcontainer}>
         <div className={style.container}>
           <div className={style.welcometext}>
             <h1 className={style.text}>Welcome to&nbsp;<span style={{ color: "#0097db" }}>Weld</span><span style={{ color: "#fe2d95" }}>X</span></h1>
@@ -27,7 +28,16 @@ export default function Default() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <div className={style.intro}>
+        <div className={style.tdiv}>
+          <h2 className={style.h1}>Welcome to&nbsp;<span style={{ color: "#0097db" }}>Weld</span><span style={{ color: "#fe2d95" }}>X</span><br />Leading Software Hub in Bhubaneswar</h2>
+          <p className={style.p1}>Ideas&nbsp;&nbsp;|&nbsp;&nbsp;Innovation&nbsp;&nbsp;|&nbsp;&nbsp;Execution</p>
+        </div>
+        <div className={style.mdiv}>
+          <Image src={'/team.png'} width={500} height={500} className={style.DisImg} alt="WeldX" />
+        </div>
+      </div>
 
       <div className={style.paragraph}>
         <p></p>
@@ -58,7 +68,7 @@ export default function Default() {
       <div>
         <ContactUs />
       </div>
-
+      <Top />
     </div>
   );
 }

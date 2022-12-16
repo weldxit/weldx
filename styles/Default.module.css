@@ -1,6 +1,132 @@
 .section {
-    height: auto;
-    color: aliceblue;
+    padding: 0;
+    height: fit-content;
+    background-color: #fff;
+    color: #000;
+}
+
+.intro {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h1 {
+    font-size: 3.5rem;
+    color: #191f4f;
+}
+
+.p1 {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.DisImg {
+    width: 500px;
+    height: 500px;
+}
+
+@media (min-width: 300px) and (max-width: 430px) {
+    .intro {
+        width: auto;
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .DisImg {
+        width: 300px;
+        height: 300px;
+    }
+
+    .h1 {
+        font-size: 2rem;
+    }
+
+    .p1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 290px) {
+    .intro {
+        width: auto;
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .DisImg {
+        width: 230px;
+        height: 230px;
+    }
+
+    .h1 {
+        font-size: 1.5rem;
+    }
+
+    .p1 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 970px) and (max-width: 1080px) {
+    .intro {
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+
+    .p1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 920px) {
+    .intro {
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+
+    .DisImg {
+        width: 400px;
+        height: 400px;
+    }
+
+    .h1 {
+        font-size: 3rem;
+    }
+
+    .p1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 690px) {
+    .intro {
+        width: auto;
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .h1 {
+        font-size: 3rem;
+    }
+
+    .p1 {
+        font-size: 1.5rem;
+    }
 }
 
 .rootcontainer {
@@ -124,7 +250,7 @@
 
 .saurav {
     width: 1100px;
-    height: 500px;
+    height: 250px;
 }
 
 @media (min-width: 300px) and (max-width: 430px) {
@@ -181,7 +307,7 @@
 
     .saurav {
         width: 340px;
-        height: 150px;
+        height: 80px;
         margin-left: -10px;
     }
 
@@ -241,7 +367,7 @@
 
     .saurav {
         width: 250px;
-        height: 120px;
+        height: 60px;
     }
 
 }
@@ -278,7 +404,7 @@
 
     .saurav {
         width: 1000px;
-        height: 450px;
+        height: 250px;
     }
 
 }
@@ -323,7 +449,7 @@
 
     .saurav {
         width: 800px;
-        height: 350px;
+        height: 200px;
     }
 
 }
@@ -376,6 +502,6 @@
 
     .saurav {
         width: 500px;
-        height: 200px;
+        height: 130px;
     }
 }
