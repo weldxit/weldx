@@ -129,104 +129,7 @@
     }
 }
 
-.rootcontainer {
-    margin-top: 0rem;
-    /* background-image: url('https://wallpaper.dog/large/5522664.jpg');
-    background-size: cover; */
-    height: 100%;
 
-
-}
-
-
-.container {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    /* position: relative; */
-    display: flex;
-    flex-direction: row;
-    /* grid-template-columns: 1fr 1fr; */
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    width: 1100px;
-    margin: auto;
-}
-
-
-
-.welcometext {
-    /* position: relative; */
-    display: inline-block;
-    box-sizing: border-box;
-    text-align: center;
-
-}
-
-.text {
-    display: flex;
-    font-size: 3rem;
-    /* padding-left: 15rem; */
-    /* top: 0; */
-    margin: auto;
-    color: #191f4f;
-
-}
-
-.idea {
-    margin: 0.3ch;
-    font-size: 2.4rem;
-    color: rgb(0, 148, 158);
-    writing-mode: vertical-rl;
-}
-
-.innovation {
-    padding-top: 3rem;
-    margin: 0.3ch;
-    font-size: 2.4rem;
-    color: rgb(118, 151, 0);
-
-}
-
-.execution {
-    margin: 0.3ch;
-    font-size: 2.4rem;
-    color: rgb(117, 43, 0);
-}
-
-.teamwork {
-    /* margin-top: 9rem; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 450px;
-    width: 450px;
-    /* position: absolute; */
-    /* right: 1rem; */
-    border-radius: 50% 0;
-    background-color: #ffffff;
-    box-shadow: rgba(255, 255, 255, 0.251) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-
-
-.displayImage {
-    width: 380px;
-    height: 400px;
-    animation: mymove 7s;
-    border-radius: 25%;
-    overflow: hidden;
-}
-
-@keyframes mymove {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 .H {
     width: 30rem;
@@ -263,37 +166,7 @@
         height: 80vh;
     }
 
-    .text {
-        font-size: 2.1rem;
-        padding: 0 1.5rem;
-
-    }
-
-    .idea,
-    .innovation,
-    .execution {
-        font-size: 1.5rem;
-    }
-
-    .teamwork {
-        flex-direction: column;
-        height: 325px;
-        width: 325px;
-    }
-
-    .displayImage {
-        width: 200px;
-        height: 200px;
-        margin-bottom: 2rem;
-    }
-
-    .paragraph {
-        width: auto;
-        margin: auto;
-        height: auto;
-        font-size: 1rem;
-        padding: 20px;
-    }
+    
 
     .H {
         width: auto;
@@ -323,37 +196,7 @@
         height: 80vh;
     }
 
-    .text {
-        font-size: 1.7rem;
-        padding: 0 .9rem;
-
-    }
-
-    .idea,
-    .innovation,
-    .execution {
-        font-size: 1.3rem;
-    }
-
-    .teamwork {
-        flex-direction: column;
-        height: 245px;
-        width: 245px;
-    }
-
-    .displayImage {
-        width: 200px;
-        height: 200px;
-        margin-bottom: 2rem;
-    }
-
-    .paragraph {
-        width: auto;
-        margin: auto;
-        height: auto;
-        font-size: 1rem;
-        padding: 20px;
-    }
+    
 
     .H {
         width: auto;
@@ -380,19 +223,7 @@
         height: 70vh;
     }
 
-    .teamwork{
-        width: 400px;
-        height: 400px;
-        margin-top: 4rem;
-    }
-
-    .paragraph {
-        width: auto;
-        margin: auto;
-        height: auto;
-        font-size: 1rem;
-        padding: 20px;
-    }
+    
 
     .H {
         font-size: 1.8rem;
@@ -419,25 +250,7 @@
         height: 80vh;
     }
 
-    .teamwork {
-        flex-direction: column;
-        height: 545px;
-        width: 545px;
-    }
-
-    .displayImage {
-        width: 350px;
-        height: 350px;
-        margin-bottom: 2rem;
-    }
-
-    .paragraph {
-        width: auto;
-        margin: auto;
-        height: auto;
-        font-size: 1rem;
-        padding: 20px;
-    }
+    
 
     .H {
         width: auto;
@@ -463,32 +276,7 @@
         height: 100vh;
     }
 
-    .text {
-        padding: 0 1.5rem;
-
-    }
-
-    .teamwork {
-        flex-direction: column;
-        top: 150px;
-        right: 40px;
-        /* height: 325px;
-        width: 325px; */
-    }
-
-    .displayImage {
-        width: 200px;
-        height: 200px;
-        margin-bottom: 2rem;
-    }
-
-    .paragraph {
-        width: auto;
-        margin: auto;
-        height: auto;
-        font-size: 1.5rem;
-        padding: 20px;
-    }
+    
 
     .H {
         width: auto;

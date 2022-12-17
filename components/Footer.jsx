@@ -33,7 +33,7 @@ export default function () {
             <p><span style={{color: "#fff", fontWeight: "bold"}}>Weld</span><span style={{color: "#fe2d95", fontWeight: "bold"}}>X</span></p>
             <ul className={style.ul}>
               <li><Link href={'/About'} className={style.li}><span>About Us</span></Link></li>
-              <li><Link href={'/Product'} className={style.li}><span>Praduct</span></Link></li>
+              <li><Link href={'/Products'} className={style.li}><span>Products</span></Link></li>
               <li><Link href={'/Contact'} className={style.li}><span>Contact Us</span></Link></li>
               <li><Link href={'/FAQ'} className={style.li}><span>FAQ</span></Link></li>
               <li><Link href={'#'} className={style.li}><span>Blog</span></Link></li>

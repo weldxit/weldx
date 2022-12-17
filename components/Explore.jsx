@@ -15,36 +15,39 @@ const Explore = () => {
                     <Carousel.Item>
                         <div className={style.Card}>
                             <div className={style.face}>
-                                <Image src={'/SP.jfif'} width={326} height={250} alt="Data Innovation Partner" className={style.Img} />
-                                <h3 className={style.h}>Sundar Pichai</h3>
-                                <p>CEO, Google</p>
+                                <Image src={'/PS1.png'} width={326} height={250} alt="Data Innovation Partner" className={style.Img} />
+                                <h3 className={style.h}>Rhitwij Mukherjee</h3>
+                                <p>Brand Manager, Chasicare</p>
                             </div>
                             <div className={style.Caption}>
-                                <p className={style.Pdes}>WeldX brings in it's creative minds and proprietary algorithms to become the best buddy in it's segment and unlock it's real potential to give it's partners a competitive edge.</p>
+                                <p className={style.Pdes}>Have abundant knowledge and expertise in web technologies and build my business website and
+                                    App with custom features. Highly recommending the WeldX for their global IT solutions.</p>
                             </div>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className={style.Card}>
                             <div className={style.face}>
-                                <Image src={'/SP.jfif'} width={326} height={250} alt="Data Innovation Partner" className={style.Img} />
-                                <h3 className={style.h}>Sundar Pichai</h3>
-                                <p>CEO, Google</p>
+                                <Image src={'/PS2.png'} width={326} height={250} alt="Data Innovation Partner" className={style.Img} />
+                                <h3 className={style.h}>Priyanka Nanda</h3>
+                                <p>BDM, Sx4</p>
                             </div>
                             <div className={style.Caption}>
-                                <p className={style.Pdes}>WeldX brings in it's creative minds and proprietary algorithms to become the best buddy in it's segment and unlock it's real potential to give it's partners a competitive edge.</p>
+                                <p className={style.Pdes}>The professional team from WeldX build my website and it works fine for my business. From mobile
+                                    responsive to adding the new features they perfectly integrated my business ideas.</p>
                             </div>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className={style.Card}>
                             <div className={style.face}>
-                                <Image src={'/SP.jfif'} width={326} height={250} alt="Data Innovation Partner" className={style.Img} />
-                                <h3 className={style.h}>Sundar Pichai</h3>
-                                <p>CEO, Google</p>
+                                <Image src={'/PS3.png'} width={326} height={250} alt="Data Innovation Partner" className={style.Img} />
+                                <h3 className={style.h}>Subhranshu Khandi</h3>
+                                <p>CTO, ITsolN</p>
                             </div>
                             <div className={style.Caption}>
-                                <p className={style.Pdes}>WeldX brings in it's creative minds and proprietary algorithms to become the best buddy in it's segment and unlock it's real potential to give it's partners a competitive edge.</p>
+                                <p className={style.Pdes}>Developed my website with stunning design and custom features that my audience love to explore.
+                                    Many thanks to WeldX team for their world class IT products and solutions</p>
                             </div>
                         </div>
                     </Carousel.Item>
