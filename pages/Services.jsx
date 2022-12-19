@@ -84,7 +84,7 @@ export default function Services() {
         <Display />
       </div>
       <div>
-        <Client />
+    
       </div>
       <div>
         <Explore />
