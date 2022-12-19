@@ -8,7 +8,7 @@ const Explore = () => {
         <div className={style.ExploreArea}>
             <div className={style.heading}>
                 <h1 className={style.h1}>Testimonials</h1>
-                <p className={style.p}>Story of people inspired by WeldX to Change their live throuhgh our Business Ideas.</p>
+                <p className={style.p}>Story of people inspired by WeldX to Change their live through our Business Ideas.</p>
             </div>
             <div className={style.Cards}>
                 <Carousel>
@@ -43,7 +43,7 @@ const Explore = () => {
                             <div className={style.face}>
                                 <Image src={'/PS3.png'} width={326} height={250} alt="Data Innovation Partner" className={style.Img} />
                                 <h3 className={style.h}>Subhranshu Khandi</h3>
-                                <p>CTO, ITsolN</p>
+                                <p>SCR, ITsolN</p>
                             </div>
                             <div className={style.Caption}>
                                 <p className={style.Pdes}>Developed my website with stunning design and custom features that my audience love to explore.
