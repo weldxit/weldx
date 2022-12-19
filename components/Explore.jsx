@@ -38,19 +38,7 @@ const Explore = () => {
                             </div>
                         </div>
                     </Carousel.Item>
-                    <Carousel.Item>
-                        <div className={style.Card}>
-                            <div className={style.face}>
-                                <Image src={'/PS3.png'} width={326} height={250} alt="Data Innovation Partner" className={style.Img} />
-                                <h3 className={style.h}>Subhranshu Khandi</h3>
-                                <p>SCR, ITsolN</p>
-                            </div>
-                            <div className={style.Caption}>
-                                <p className={style.Pdes}>Developed my website with stunning design and custom features that my audience love to explore.
-                                    Many thanks to WeldX team for their world class IT products and solutions</p>
-                            </div>
-                        </div>
-                    </Carousel.Item>
+                   
                 </Carousel>
             </div>
         </div>
